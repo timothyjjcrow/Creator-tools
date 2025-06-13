@@ -1,0 +1,2653 @@
+[
+  {
+    "id": "canva",
+    "name": "Canva",
+    "description": "A widely popular, user-friendly, web-based graphic design tool with a drag-and-drop interface.",
+    "category": "Design",
+    "tags": ["design", "templates", "graphics", "social-media"],
+    "url": "https://canva.com",
+    "freePlanFeatures": [
+      "Access to basic drag-and-drop design tools",
+      "Over 2 million templates",
+      "Limited content library",
+      "AI-powered Magic Write (50 total uses)",
+      "AI-powered Magic Media (~50 total images)",
+      "5 GB of cloud storage"
+    ],
+    "freePlanLimitations": [
+      "No Brand Kit for saving logos, fonts, or color palettes",
+      "Limited AI tool usage (50 total uses for Magic Write, ~50 images for Magic Media)",
+      "Standard download formats only (PNG, JPG, PDF) - no SVG or transparent background exports",
+      "5 GB storage cap",
+      "Basic collaboration with no shared team workspace",
+      "No background remover for images or videos",
+      "Fewer fonts and templates compared to Pro",
+      "Premium elements require one-time purchase licenses"
+    ],
+    "idealUseCase": "Excellent for creating social media graphics, simple presentations, blog banners, and basic marketing materials quickly, especially for those new to design."
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "description": "A powerful, web-based collaborative interface design tool, widely used for UI/UX design, prototyping, and vector graphics.",
+    "category": "Design",
+    "tags": ["ui-design", "prototyping", "collaboration", "vector"],
+    "url": "https://figma.com",
+    "freePlanFeatures": [
+      "Unlimited personal drafts/files",
+      "Core design and prototyping tools",
+      "Basic collaboration features"
+    ],
+    "freePlanLimitations": [
+      "Limited to 3 collaborative files (each with max 3 pages)",
+      "Up to 2 editors (including oneself) on collaborative files",
+      "Restricted to one project containing up to three files for team collaboration",
+      "No team libraries or advanced prototyping features"
+    ],
+    "idealUseCase": "Perfect for solo creators working on UI/UX design for websites or apps, creating vector graphics, or learning interface design."
+  },
+  {
+    "id": "photopea",
+    "name": "Photopea",
+    "description": "A free, web-based advanced image editor that strongly resembles Adobe Photoshop in interface and functionality.",
+    "category": "Design",
+    "tags": ["photo-editing", "photoshop-alternative", "layers", "advanced"],
+    "url": "https://photopea.com",
+    "freePlanFeatures": [
+      "Supports wide range of file formats (PSD, Sketch, XCF, etc.)",
+      "Layer-based editing with masks and adjustment layers",
+      "Advanced selection tools (pen tool)",
+      "Comprehensive filters and effects",
+      "Professional color correction capabilities",
+      "Export in JPG, PNG, SVG formats"
+    ],
+    "freePlanLimitations": [
+      "Requires active internet connection (no offline mode)",
+      "May experience performance lag with very large files",
+      "Displays advertisements",
+      "Certain advanced features like batch processing reserved for paid users"
+    ],
+    "idealUseCase": "An excellent free alternative to Photoshop for creators needing advanced photo editing, manipulation, or graphic design tasks that go beyond Canva's capabilities."
+  },
+  {
+    "id": "image-editor",
+    "name": "Image Editor",
+    "description": "A comprehensive browser-based image editing tool with professional features including filters, cropping, resizing, text overlays, and special effects.",
+    "category": "Design",
+    "tags": [
+      "image-editing",
+      "filters",
+      "crop",
+      "resize",
+      "text-overlay",
+      "browser-based"
+    ],
+    "url": "/tools/image-editor",
+    "freePlanFeatures": [
+      "Advanced filter system with preset options",
+      "Precision cropping and resizing tools",
+      "Multiple text overlay options with custom fonts",
+      "Professional adjustment controls (brightness, contrast, saturation, hue, blur)",
+      "Special effects including flip, emboss, and color transformations",
+      "Full undo/redo history support",
+      "High-quality image export in PNG format",
+      "Drag-and-drop file upload",
+      "Real-time preview of all edits"
+    ],
+    "freePlanLimitations": [
+      "Processes images locally in browser (requires sufficient device memory for large files)",
+      "Export limited to PNG format",
+      "No cloud storage or account sync"
+    ],
+    "idealUseCase": "Perfect for creators needing quick image edits, social media graphics preparation, basic photo enhancement, and text overlay creation without installing software."
+  },
+  {
+    "id": "unsplash",
+    "name": "Unsplash",
+    "description": "Provides access to a vast library of high-quality, freely usable images for both commercial and non-commercial purposes.",
+    "category": "Design",
+    "tags": ["stock-photos", "images", "free", "commercial-use"],
+    "url": "https://unsplash.com",
+    "freePlanFeatures": [
+      "Vast library of high-quality images",
+      "Free for commercial and non-commercial use",
+      "No permission required",
+      "Attribution appreciated but not required"
+    ],
+    "freePlanLimitations": [
+      "Images cannot be sold without significant modification",
+      "Cannot compile images to replicate a similar service"
+    ],
+    "idealUseCase": "Perfect for blog posts, social media content, website headers, and any project needing high-quality stock photography."
+  },
+  {
+    "id": "pexels",
+    "name": "Pexels",
+    "description": "Offers a large collection of free stock photos and videos under the Pexels license, usable for personal and commercial projects.",
+    "category": "Design",
+    "tags": ["stock-photos", "videos", "free", "commercial-use"],
+    "url": "https://pexels.com",
+    "freePlanFeatures": [
+      "Large collection of free stock photos and videos",
+      "Usable for personal and commercial projects",
+      "No attribution required"
+    ],
+    "freePlanLimitations": [
+      "Cannot sell unaltered copies or resell on other stock platforms",
+      "Identifiable people or brands cannot be shown in offensive ways",
+      "Cannot imply endorsement by identifiable people or brands"
+    ],
+    "idealUseCase": "Great for content creators needing diverse stock photos and videos for marketing materials, websites, and social media."
+  },
+  {
+    "id": "pixabay",
+    "name": "Pixabay",
+    "description": "Features a wide array of free stock photos, illustrations, vector graphics, film footage, music, and sound effects.",
+    "category": "Design",
+    "tags": ["stock-photos", "vectors", "music", "sound-effects"],
+    "url": "https://pixabay.com",
+    "freePlanFeatures": [
+      "Wide array of photos, illustrations, vector graphics",
+      "Film footage, music, and sound effects",
+      "Free for commercial/non-commercial use",
+      "Can be modified and adapted",
+      "Attribution appreciated but not required"
+    ],
+    "freePlanLimitations": [
+      "Cannot sell or distribute content as is",
+      "Cannot use content with identifiable people/brands in offensive ways",
+      "Cannot imply endorsement by identifiable people or brands"
+    ],
+    "idealUseCase": "Versatile resource for creators needing various types of media including photos, vectors, audio, and video for diverse projects."
+  },
+  {
+    "id": "asana",
+    "name": "Asana",
+    "description": "A project and task management tool designed to help teams organize, track, and manage their work.",
+    "category": "Productivity",
+    "affiliate": true,
+    "tags": ["tasks", "team", "workflow", "planning"],
+    "url": "https://asana.com",
+    "affiliateUrl": "https://asana.com/referral",
+    "freePlanFeatures": [
+      "Collaborate with up to 10-15 members",
+      "Unlimited tasks, projects, messages, activity log, and file storage",
+      "100MB per file limit",
+      "List, board, and calendar views",
+      "Integration with over 100 apps"
+    ],
+    "freePlanLimitations": [
+      "Limited to 10-15 team members",
+      "No Timeline view",
+      "No task dependencies",
+      "No custom fields (global custom fields available in Premium)",
+      "No forms or rules/automation",
+      "Fewer admin controls",
+      "Cannot set granular access permissions"
+    ],
+    "idealUseCase": "Suitable for individuals or small teams (up to 10-15) needing basic task and project management with different view options."
+  },
+  {
+    "id": "trello",
+    "name": "Trello",
+    "description": "A Kanban-style, list-making application for project management and task organization.",
+    "category": "Productivity",
+    "affiliate": true,
+    "tags": ["kanban", "boards", "tasks", "visual"],
+    "url": "https://trello.com",
+    "affiliateUrl": "https://trello.com/referral",
+    "freePlanFeatures": [
+      "Up to 10 boards per Workspace",
+      "Unlimited cards and lists",
+      "Unlimited members across boards",
+      "1 Power-Up (integration) per board",
+      "250 Butler automation commands per month",
+      "Custom backgrounds and card stickers"
+    ],
+    "freePlanLimitations": [
+      "Limited to 10 boards per Workspace",
+      "Only 1 Power-Up per board restricts integration capabilities",
+      "No advanced views like Timeline, Calendar, Map, or Dashboard",
+      "No custom fields or advanced checklists",
+      "File attachment limit of 10MB per file",
+      "Limited automation runs (250/month)",
+      "All members of free Workspace are admins"
+    ],
+    "idealUseCase": "Great for solo creators or very small teams for visual task management, personal to-do lists, simple project tracking, or content calendars using the Kanban board view."
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "description": "An all-in-one workspace app for notes, tasks, wikis, databases, and project management.",
+    "category": "Productivity",
+    "affiliate": true,
+    "tags": ["notes", "wiki", "database", "all-in-one"],
+    "url": "https://notion.so",
+    "affiliateUrl": "https://notion.so/referral",
+    "freePlanFeatures": [
+      "Unlimited pages and blocks (for single member workspace)",
+      "Share with up to 10 guests",
+      "Sync across devices",
+      "Basic page analytics",
+      "Access to templates",
+      "Web Clipper"
+    ],
+    "freePlanLimitations": [
+      "File upload limit of 5MB per file",
+      "If more than one member in workspace, limited to 1,000 blocks total",
+      "Version history limited to 7 days",
+      "Cannot publish Notion pages to the web on free personal plan",
+      "Limited guest access (10 guests)"
+    ],
+    "idealUseCase": "Excellent for solo creators for personal project management, note-taking, creating a personal wiki, or organizing research. The unlimited pages/blocks for single users is very generous."
+  },
+  {
+    "id": "clickup",
+    "name": "ClickUp",
+    "description": "An all-in-one productivity platform combining project management, task tracking, docs, goals, and collaboration tools.",
+    "category": "Productivity",
+    "affiliate": true,
+    "tags": ["tasks", "agile", "productivity", "project-management"],
+    "url": "https://clickup.com",
+    "affiliateUrl": "https://clickup.com/referral",
+    "freePlanFeatures": [
+      "Unlimited personal tasks",
+      "100MB storage",
+      "Multiple project views (List, Board, Calendar)",
+      "Native time tracking",
+      "24/7 support",
+      "Up to 2 factor authentication",
+      "Real-time collaboration",
+      "Basic dashboard and reporting",
+      "Mobile apps for iOS and Android",
+      "Integrations with 1000+ tools"
+    ],
+    "freePlanLimitations": [
+      "Limited to 100MB storage",
+      "Can only have up to 2 members in a workspace",
+      "No advanced features like Gantt charts, custom fields, or goals",
+      "Limited dashboard customization",
+      "No advanced reporting or analytics",
+      "No email integration",
+      "Limited automation (no custom automations)",
+      "No advanced permission controls"
+    ],
+    "idealUseCase": "Perfect for solo creators or very small teams (2 people max) who want a comprehensive project management solution with multiple views and basic collaboration features without paying for premium tools."
+  },
+  {
+    "id": "airtable",
+    "name": "Airtable",
+    "description": "A cloud-based platform that combines the simplicity of a spreadsheet with the power of a database, featuring rich field types and linked records.",
+    "category": "Productivity",
+    "affiliate": true,
+    "tags": ["database", "collaboration", "spreadsheets", "no-code"],
+    "url": "https://airtable.com",
+    "affiliateUrl": "https://airtable.com/referral",
+    "freePlanFeatures": [
+      "Up to 1,000 records per base",
+      "Unlimited personal bases",
+      "Grid, Calendar, Kanban, and Gallery views",
+      "Rich field types (attachments, checkboxes, dropdowns, dates)",
+      "Real-time collaboration",
+      "2GB of attachment space per base",
+      "Basic app integrations",
+      "Mobile apps for iOS and Android",
+      "Form view for data collection",
+      "CSV/Excel import and export"
+    ],
+    "freePlanLimitations": [
+      "Limited to 1,000 records per base",
+      "2GB attachment space limit per base",
+      "No advanced features like blocks, automations, or sync",
+      "Limited revision history (snapshot creation only)",
+      "Basic customer support",
+      "No advanced permissions or admin features",
+      "Limited integration options",
+      "No advanced calendar features"
+    ],
+    "idealUseCase": "Excellent for content creators managing projects, client databases, content calendars, or inventory tracking. Perfect for those who need more structure than spreadsheets but don't require complex database features."
+  },
+  {
+    "id": "evernote",
+    "name": "Evernote",
+    "description": "A popular note-taking app for capturing, organizing, and syncing notes, ideas, and web clippings across devices.",
+    "category": "Productivity",
+    "affiliate": true,
+    "tags": ["notes", "journal", "organization", "web-clipping"],
+    "url": "https://evernote.com",
+    "affiliateUrl": "https://evernote.com/referral",
+    "freePlanFeatures": [
+      "Sync notes across 2 devices",
+      "Up to 60MB monthly upload limit",
+      "Maximum note size of 25MB",
+      "Basic note formatting (text, images, audio recordings)",
+      "Web clipper for saving articles and web pages",
+      "Search functionality within notes",
+      "Notebooks and tags for organization",
+      "Basic sharing capabilities"
+    ],
+    "freePlanLimitations": [
+      "Sync limited to 2 devices",
+      "60MB monthly upload cap can be restrictive for media-heavy users",
+      "25MB maximum note size",
+      "No offline access to notes on mobile devices",
+      "Limited collaboration features",
+      "No version history for notes",
+      "No advanced search features (e.g., PDF search, document search)",
+      "No integration with some third-party apps",
+      "Basic customer support"
+    ],
+    "idealUseCase": "Good for individuals who need a simple, cross-platform solution for capturing quick notes, ideas, and web clippings. Suitable for light note-taking and basic organization across a computer and a mobile device."
+  },
+  {
+    "id": "todoist",
+    "name": "Todoist",
+    "description": "A powerful task management app with natural language processing, projects, and collaboration features.",
+    "category": "Productivity",
+    "affiliate": true,
+    "tags": ["to-do", "checklist", "tasks", "productivity"],
+    "url": "https://todoist.com",
+    "affiliateUrl": "https://todoist.com/referral",
+    "freePlanFeatures": [
+      "Up to 5 personal projects",
+      "Up to 5 people per project",
+      "Natural language date/time recognition",
+      "Basic filters and labels",
+      "Mobile apps for iOS and Android",
+      "Web and desktop applications",
+      "Basic templates",
+      "Activity overview",
+      "Email integration for adding tasks",
+      "Basic collaboration features"
+    ],
+    "freePlanLimitations": [
+      "Limited to 5 personal projects",
+      "No sub-projects or sections",
+      "Basic filters only (up to 3 filters)",
+      "No advanced features like templates, automatic backups",
+      "No calendar view",
+      "Limited productivity tracking",
+      "Basic commenting and file attachments",
+      "No advanced integrations",
+      "Email support only"
+    ],
+    "idealUseCase": "Excellent for individuals or very small teams who need organized task management with intelligent date parsing and basic collaboration. Perfect for personal productivity and simple project tracking."
+  },
+  {
+    "id": "calendly",
+    "name": "Calendly",
+    "description": "An automated scheduling platform that eliminates back-and-forth emails by letting others book time slots directly from your calendar.",
+    "category": "Productivity",
+    "affiliate": true,
+    "tags": ["schedule", "meetings", "booking", "calendar"],
+    "url": "https://calendly.com",
+    "affiliateUrl": "https://calendly.com/referral",
+    "freePlanFeatures": [
+      "1 calendar connection",
+      "1 event type (15-60 minutes)",
+      "Unlimited 1-on-1 meetings",
+      "Basic scheduling preferences and availability",
+      "Email notifications and confirmations",
+      "Calendar sync with Google, Outlook, Office 365, iCloud",
+      "Basic customization of booking page",
+      "Mobile app for iOS and Android",
+      "Time zone detection",
+      "Basic integrations (Zoom, Google Meet)"
+    ],
+    "freePlanLimitations": [
+      "Limited to 1 event type",
+      "Only 1 calendar connection",
+      "Calendly branding on booking pages",
+      "No group events or round-robin scheduling",
+      "Basic customization options only",
+      "No advanced integrations or workflows",
+      "No payment collection",
+      "Limited reporting and analytics",
+      "No team features or admin controls"
+    ],
+    "idealUseCase": "Perfect for solo creators, consultants, or freelancers who need a simple way to let clients book calls or meetings without email back-and-forth. Great for coaching sessions, consultations, or interviews."
+  },
+  {
+    "id": "google-calendar",
+    "name": "Google Calendar",
+    "description": "Google Calendar is a free time-management and scheduling calendar service that allows users to create and edit events, set reminders, and share calendars with others, deeply integrated into the Google ecosystem.",
+    "category": "Productivity",
+    "affiliate": false,
+    "tags": ["calendar", "events", "scheduling", "google", "time-management"],
+    "url": "https://calendar.google.com",
+    "freePlanFeatures": [
+      "Completely free for personal use",
+      "Create and manage multiple personal calendars",
+      "Schedule events with details (title, time, location, description)",
+      "Set event reminders (notifications via email or pop-up)",
+      "Invite guests to events and track RSVPs",
+      "Share calendars with others with different permission levels",
+      "Subscribe to public calendars (holidays, sports)",
+      "Access via web, Android, and iOS apps with seamless synchronization",
+      "Integration with Gmail for event creation and Google Meet for video conferencing",
+      "Offline access (varies by platform)",
+      "Task integration (Google Tasks)",
+      "Goal-setting feature to find time for personal goals"
+    ],
+    "freePlanLimitations": [
+      "Advanced business features (resource booking, enhanced admin controls, appointment slots for wider audiences) are part of paid Google Workspace plans",
+      "Storage is shared with other Google services (15GB free limit)",
+      "Limited interface customization compared to some third-party calendar apps"
+    ],
+    "idealUseCase": "Excellent for individuals managing personal schedules, family events, appointments, and reminders. Also great for small groups or teams who need a simple, shared calendar solution and are already within the Google ecosystem."
+  },
+  {
+    "id": "zapier",
+    "name": "Zapier",
+    "description": "A powerful automation platform that connects different apps and services to automate repetitive tasks and workflows.",
+    "category": "Productivity",
+    "affiliate": true,
+    "tags": ["automation", "integrations", "workflow", "productivity"],
+    "url": "https://zapier.com",
+    "affiliateUrl": "https://zapier.com/referral",
+    "freePlanFeatures": [
+      "100 tasks per month",
+      "5 Zaps (automated workflows)",
+      "Access to 15-minute update times",
+      "Two-step Zaps only",
+      "Basic app integrations (7,000+ apps supported)",
+      "Email support",
+      "Standard data retention",
+      "Zapier Tables (basic database functionality)",
+      "Basic webhooks support"
+    ],
+    "freePlanLimitations": [
+      "Limited to 100 tasks per month",
+      "Only 5 active Zaps allowed",
+      "Two-step Zaps only (no multi-step automation)",
+      "15-minute minimum update intervals",
+      "No premium app integrations",
+      "Basic support only",
+      "No advanced filters or formatters",
+      "No team collaboration features",
+      "Limited data retention and history"
+    ],
+    "idealUseCase": "Perfect for small-scale automation needs like connecting social media to spreadsheets, email notifications, or simple data transfers between apps. Great for testing automation concepts before scaling up."
+  },
+  {
+    "id": "make",
+    "name": "Make (formerly Integromat)",
+    "description": "Make (formerly Integromat) is a powerful visual automation platform that allows users to connect apps and automate workflows using a drag-and-drop interface. It offers a free tier with limitations on operations and features.",
+    "category": "Productivity",
+    "affiliate": true,
+    "tags": [
+      "API",
+      "integration",
+      "automation",
+      "workflow-automation",
+      "visual-builder"
+    ],
+    "url": "https://make.com",
+    "affiliateUrl": "https://make.com/referral",
+    "freePlanFeatures": [
+      "1,000 operations per month",
+      "Create up to 2 active scenarios (automations)",
+      "15-minute minimum interval for scenario execution",
+      "Access to a wide range of app integrations",
+      "Visual scenario editor with logic (routers, iterators, error handlers)",
+      "Data storage: 1 GB"
+    ],
+    "freePlanLimitations": [
+      "Limited to 1,000 operations/month (can be consumed quickly)",
+      "Only 2 active scenarios allowed",
+      "Minimum 15-minute interval for scenario scheduling (no real-time)",
+      "No priority support",
+      "Some advanced features or specific app modules might be restricted or have lower limits",
+      "Smaller data transfer limits per execution compared to paid plans",
+      "Shorter scenario execution timeout"
+    ],
+    "idealUseCase": "Suitable for individuals or small businesses with basic automation needs, those wanting to learn visual workflow automation, or users who need to connect a few apps with relatively infrequent data exchange. Good for testing complex automation ideas before committing to a paid plan."
+  },
+  {
+    "id": "ifttt",
+    "name": "IFTTT",
+    "description": "IFTTT (If This Then That) is a web service that creates chains of simple conditional statements, called Applets, connecting various apps, services, and devices to automate tasks.",
+    "category": "Productivity",
+    "affiliate": false,
+    "tags": ["IoT", "webhooks", "automation", "integration", "applets"],
+    "url": "https://ifttt.com",
+    "freePlanFeatures": [
+      "Create a limited number of active Applets (e.g., 2 Standard Applets currently)",
+      "Access to a wide range of services (apps, devices, platforms) to connect",
+      "Use pre-built Applets created by others",
+      "Basic Applet creation with single \"if this\" trigger and single \"then that\" action"
+    ],
+    "freePlanLimitations": [
+      "Strict limit on the number of active custom Applets (e.g., 2 Standard Applets)",
+      "Slower Applet execution speed compared to paid plans",
+      "No access to multi-step Applets (multiple actions per trigger)",
+      "No access to Applets with conditional logic or queries",
+      "Limited or no access to customer support",
+      "Some services or specific triggers/actions might be locked behind a Pro plan"
+    ],
+    "idealUseCase": "Individuals looking for simple, set-and-forget automations between a few of their favorite apps and devices for personal productivity or convenience, without needing complex logic or a high volume of Applets."
+  },
+  {
+    "id": "google-docs",
+    "name": "Google Docs",
+    "description": "A free, web-based word processor, part of Google's Workspace suite, offering robust collaboration and document management features.",
+    "category": "Writing",
+    "affiliate": false,
+    "tags": ["writing", "documents", "collaboration", "cloud"],
+    "url": "https://docs.google.com",
+    "freePlanFeatures": [
+      "Real-time collaboration",
+      "Cloud-based storage via Google Drive (15 GB free shared across Google services)",
+      "Essential formatting tools",
+      "Compatibility with Microsoft Word (.docx) and other formats",
+      "Offline access (when enabled)",
+      "Unlimited forms and responses if using Google Forms integration"
+    ],
+    "freePlanLimitations": [
+      "Storage shared with Gmail and Google Photos (15 GB limit can be reached quickly)",
+      "Limited design and graphic options compared to specialized tools",
+      "Spelling and grammar tools inferior to dedicated software like Grammarly",
+      "Lacks advanced formatting options",
+      "Limited template variety for specialized documents"
+    ],
+    "idealUseCase": "Excellent for drafting, editing, and collaborating on written content like blog posts, scripts, book manuscripts, and proposals. Its cloud-based nature makes it accessible from anywhere."
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "description": "An AI-powered writing assistant that helps improve grammar, spelling, clarity, and tone in real-time.",
+    "category": "Writing",
+    "affiliate": true,
+    "tags": ["proofreading", "spelling", "grammar", "ai-writing"],
+    "url": "https://grammarly.com",
+    "affiliateUrl": "https://grammarly.com/referral",
+    "freePlanFeatures": [
+      "Real-time grammar and spelling checks",
+      "Basic punctuation correction",
+      "Conciseness suggestions",
+      "Browser extension for web-based writing",
+      "Desktop app for Mac and Windows",
+      "Integration with Microsoft Office",
+      "Mobile keyboard for iOS and Android",
+      "Basic tone detection",
+      "Weekly writing insights and statistics"
+    ],
+    "freePlanLimitations": [
+      "No advanced clarity suggestions",
+      "Limited vocabulary enhancement recommendations",
+      "No plagiarism detection",
+      "Basic tone analysis only",
+      "No genre-specific writing style checks",
+      "Limited integration with third-party apps",
+      "No advanced formatting suggestions",
+      "No team features or shared style guides"
+    ],
+    "idealUseCase": "Essential for bloggers, content creators, students, and professionals who want to improve their writing quality. Particularly useful for non-native English speakers and anyone writing frequently online."
+  },
+  {
+    "id": "hemingway-editor",
+    "name": "Hemingway Editor",
+    "description": "Hemingway Editor is a web-based and desktop tool that helps make writing clearer and more concise by highlighting adverbs, passive voice, overly complex sentences, and words with simpler alternatives.",
+    "category": "Writing",
+    "affiliate": false,
+    "tags": [
+      "readability",
+      "editing",
+      "writing-style",
+      "clarity",
+      "conciseness"
+    ],
+    "url": "https://hemingwayapp.com",
+    "freePlanFeatures": [
+      "Highlights lengthy, complex sentences and common errors",
+      "Identifies adverbs that could be removed",
+      "Flags passive voice usage",
+      "Suggests simpler alternatives for overly complex words",
+      "Provides a readability grade",
+      "Direct text input and editing in the browser (web version)",
+      "Color-coded feedback for easy identification of issues",
+      "No word count limits for analysis in the free web version"
+    ],
+    "freePlanLimitations": [
+      "The free version is online only; the desktop app (with import/export) is a paid product",
+      "No ability to save or export documents directly from the free web editor (text must be copied/pasted)",
+      "No integration with other writing tools or platforms",
+      "Does not check for grammar or spelling beyond its core style suggestions",
+      "Lacks customization for the types of suggestions it provides"
+    ],
+    "idealUseCase": "Excellent for writers, bloggers, students, and editors who want to improve the clarity, boldness, and conciseness of their writing. It's particularly useful for identifying and simplifying complex prose before publishing."
+  },
+  {
+    "id": "quillbot",
+    "name": "QuillBot",
+    "description": "QuillBot is an AI-powered paraphrasing tool that helps rewrite, rephrase, and enhance sentences, paragraphs, or articles. It also offers summarizing, grammar checking, and other writing assistance features, with limitations on the free tier.",
+    "category": "Writing",
+    "affiliate": true,
+    "tags": [
+      "AI",
+      "rewriting",
+      "paraphrasing",
+      "summarizing",
+      "grammar-checker"
+    ],
+    "url": "https://quillbot.com",
+    "affiliateUrl": "https://quillbot.com/referral",
+    "freePlanFeatures": [
+      "Paraphraser: Limited character input (e.g., 125 words at a time). Access to a few writing modes (e.g., Standard, Fluency).",
+      "Summarizer: Limited character input for summarization (e.g., 1200 words).",
+      "Grammar Checker: Checks for basic grammar, spelling, and punctuation errors.",
+      "Citation Generator: Helps create citations in APA, MLA, Chicago styles.",
+      "Co-Writer: Basic access to a combined writing space with research and note-taking.",
+      "Integrations: Limited use of extensions (e.g., Chrome, Word)."
+    ],
+    "freePlanLimitations": [
+      "Strict character/word limits for Paraphraser and Summarizer.",
+      "Limited number of paraphrasing modes (more advanced modes like Creative, Shorten, Expand are premium).",
+      "Slower processing speeds on some tools.",
+      "Fewer sentences processed at once in the Paraphraser.",
+      "Grammar checker is less comprehensive than premium or dedicated grammar tools.",
+      "Plagiarism checker is typically a premium feature.",
+      "Advanced features like \"Freeze Words\" (preventing certain words from being changed) are limited or premium.",
+      "Limited synonym options in the Paraphraser."
+    ],
+    "idealUseCase": "Useful for students, writers, and content creators who need to quickly rephrase short pieces of text, get ideas for different wording, summarize articles, or perform basic grammar checks, but don't require extensive usage or advanced features."
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "description": "Obsidian is a powerful, local-first knowledge base and note-taking application that works on top of a local folder of Markdown files. It's highly extensible through plugins and themes, allowing users to create their own customized second brain.",
+    "category": "Writing",
+    "affiliate": true,
+    "tags": ["notes", "markdown", "pkm", "knowledge-management", "local-first"],
+    "url": "https://obsidian.md",
+    "affiliateUrl": "https://obsidian.md/referral",
+    "freePlanFeatures": [
+      "Completely free for personal use",
+      "Local-first storage: all notes are stored as plain Markdown files",
+      "Bidirectional linking and graph view to visualize connections",
+      "Highly customizable interface with themes and custom CSS",
+      "Extensive plugin ecosystem for adding features (Kanban, calendar, etc.)",
+      "Markdown support with live preview or split-pane editing",
+      "Powerful search, tagging, and backlinking capabilities",
+      "Cross-platform availability (Windows, macOS, Linux, iOS, Android)",
+      "Command palette for quick access to functions",
+      "Customizable hotkeys"
+    ],
+    "freePlanLimitations": [
+      "Official sync service (Obsidian Sync) is a paid add-on for end-to-end encrypted syncing (third-party sync methods are free but require setup)",
+      "Official publishing service (Obsidian Publish) is a paid add-on",
+      "Commercial use (for-profit, 2+ employees) requires a paid license",
+      "No built-in collaboration features (primarily personal tool)",
+      "Learning curve can be steep due to its flexibility and reliance on plugins for advanced workflows"
+    ],
+    "idealUseCase": "Perfect for students, researchers, writers, developers, and anyone looking to build a robust personal knowledge management system (PKM) or \"second brain.\" Its local-first approach and extensibility appeal to users who value data ownership and customization."
+  },
+  {
+    "id": "google-keep",
+    "name": "Google Keep",
+    "description": "Google Keep is a simple, free note-taking service that allows users to create, organize, and share notes, lists, and reminders across multiple platforms within the Google ecosystem.",
+    "category": "Writing",
+    "affiliate": false,
+    "tags": ["sticky-notes", "reminders", "note-taking", "lists", "google"],
+    "url": "https://keep.google.com",
+    "freePlanFeatures": [
+      "Completely free to use",
+      "Create text notes, lists (with checkboxes), voice memos (transcribed), and image notes (OCR for text extraction)",
+      "Organize notes with labels and colors",
+      "Set time-based or location-based reminders",
+      "Collaboration features: share notes for real-time editing",
+      "Seamless synchronization across devices (web, Android, iOS) via Google Account",
+      "Integration with other Google services (e.g., Google Calendar)",
+      "Fast search, note archiving, and pinning important notes",
+      "Storage uses Google Drive's free 15GB (shared across services)"
+    ],
+    "freePlanLimitations": [
+      "Lacks advanced formatting options (e.g., limited text styling, no tables, no complex layouts)",
+      "No hierarchical folder structure (relies on labels and search)",
+      "Not designed for rich media embedding like some competitors",
+      "No dedicated desktop application (primarily web-based on desktop, PWAs available)",
+      "Offline access can sometimes be inconsistent"
+    ],
+    "idealUseCase": "Perfect for capturing quick thoughts, creating simple to-do lists, setting personal reminders, and sharing basic notes or lists with others. Its strength lies in its simplicity, speed, and cross-platform availability for users within the Google ecosystem."
+  },
+  {
+    "id": "focuswriter",
+    "name": "FocusWriter",
+    "description": "FocusWriter is a free, open-source, distraction-free word processor designed to help writers immerse themselves in their work by providing a simple, full-screen, and customizable interface.",
+    "category": "Writing",
+    "affiliate": false,
+    "tags": [
+      "distraction-free",
+      "productivity",
+      "writing-app",
+      "open-source",
+      "minimalist"
+    ],
+    "url": "https://gottcode.org/focuswriter/",
+    "freePlanFeatures": [
+      "Completely free and open-source (donation-supported)",
+      "Full-screen writing environment to minimize distractions",
+      "Customizable themes (font, colors, background image)",
+      "Basic text formatting (bold, italics, underline, alignment)",
+      "Set daily writing goals (word count or time)",
+      "Timers and alarms",
+      "Live statistics (word count, page count, etc.)",
+      "Optional typewriter sound effects for an immersive experience",
+      "Portable mode (can be run from a USB drive)",
+      "Supports TXT, basic RTF, and basic ODT file formats",
+      "Cross-platform (Windows, macOS, Linux)"
+    ],
+    "freePlanLimitations": [
+      "Minimalist by design; lacks advanced word processing features like complex formatting, tables, revision tracking, or extensive style management",
+      "No built-in cloud storage or synchronization",
+      "Does not support advanced document layouts or embedded objects",
+      "No collaborative editing features"
+    ],
+    "idealUseCase": "Perfect for writers, novelists, bloggers, students, and anyone needing a clean, focused environment to concentrate on drafting text without the clutter of traditional word processors. Excellent for first drafts and distraction-free writing sessions."
+  },
+  {
+    "id": "pixlr",
+    "name": "Pixlr",
+    "description": "A suite of free online photo editing tools, including Pixlr X (easy design) and Pixlr E (advanced editing).",
+    "category": "Design",
+    "affiliate": false,
+    "tags": ["photo-editing", "online", "free", "design"],
+    "url": "https://pixlr.com",
+    "freePlanFeatures": [
+      "Access to both Pixlr X (easy) and Pixlr E (advanced) editors",
+      "Basic editing tools (crop, resize, rotate, adjustments)",
+      "Selection tools, layers, and masks (Pixlr E)",
+      "Variety of filters and effects",
+      "Basic text tool and templates",
+      "Supports various image formats (JPEG, PNG, WebP, PXD)",
+      "No registration required for basic use",
+      "Access to a limited library of stock photos, overlays, and stickers"
+    ],
+    "freePlanLimitations": [
+      "Displays advertisements",
+      "Limited access to advanced tools and AI features (e.g., AI cutout, Heal tool)",
+      "Fewer templates, fonts, and assets compared to Premium",
+      "Lower resolution downloads for some features",
+      "Limited cloud storage (if registered)",
+      "PXD (Pixlr document format) files may not be fully compatible across all versions",
+      "No priority support"
+    ],
+    "idealUseCase": "Excellent for quick photo edits, social media graphics, and basic design tasks directly in the browser. Pixlr X is good for beginners, while Pixlr E offers more advanced users a Photoshop-like experience for free."
+  },
+  {
+    "id": "gimp",
+    "name": "GIMP",
+    "description": "A powerful, free and open-source image editor that rivals Adobe Photoshop in functionality.",
+    "category": "Design",
+    "affiliate": false,
+    "tags": ["free", "image", "photo-editing", "open-source"],
+    "url": "https://gimp.org",
+    "freePlanFeatures": [
+      "Complete image editing suite with layers, masks, and filters",
+      "Advanced selection tools (fuzzy select, by color, paths, scissors)",
+      "Comprehensive painting tools with customizable brushes",
+      "Support for various file formats (PSD, XCF, PNG, JPEG, TIFF, etc.)",
+      "Color correction and enhancement tools",
+      "Text tool with extensive typography options",
+      "Plugin support for extending functionality",
+      "Batch processing capabilities",
+      "No watermarks or export restrictions"
+    ],
+    "freePlanLimitations": [
+      "Steep learning curve compared to simpler editors",
+      "Interface can feel overwhelming for beginners",
+      "Not as intuitive as commercial alternatives",
+      "Some advanced features require plugins or scripts",
+      "Performance can be slower with very large files",
+      "Limited built-in templates compared to commercial tools"
+    ],
+    "idealUseCase": "Perfect for serious photo editing, digital art creation, and graphic design when you need professional-level tools without the cost. Best suited for users willing to invest time learning a complex but powerful interface."
+  },
+  {
+    "id": "inkscape",
+    "name": "Inkscape",
+    "description": "A professional, free and open-source vector graphics editor that's an excellent alternative to Adobe Illustrator.",
+    "category": "Design",
+    "affiliate": false,
+    "tags": ["SVG", "vector", "graphics", "open-source"],
+    "url": "https://inkscape.org",
+    "freePlanFeatures": [
+      "Complete vector drawing tools (pen, bezier, calligraphy)",
+      "Advanced text tool with typography controls",
+      "Object manipulation (grouping, layering, alignment)",
+      "Path operations (union, difference, intersection)",
+      "Gradients, patterns, and filters",
+      "Native SVG format support",
+      "Import/export multiple formats (PNG, PDF, EPS, PostScript)",
+      "Extension system for additional functionality",
+      "No restrictions on commercial use"
+    ],
+    "freePlanLimitations": [
+      "Steeper learning curve than simpler design tools",
+      "Can be slower with very complex vector graphics",
+      "Limited raster image editing capabilities",
+      "Interface may feel dated compared to modern design tools",
+      "Fewer built-in templates and assets",
+      "Some advanced features require extensions",
+      "Less intuitive for beginners compared to web-based tools"
+    ],
+    "idealUseCase": "Perfect for creating logos, icons, illustrations, and scalable graphics. Ideal for designers who need professional vector editing capabilities without the subscription cost of Adobe Illustrator."
+  },
+  {
+    "id": "krita",
+    "name": "Krita",
+    "description": "A professional-grade, free and open-source painting program made by artists that want to see affordable art tools for everyone.",
+    "category": "Design",
+    "affiliate": false,
+    "tags": ["illustration", "digital-painting", "open-source", "art"],
+    "url": "https://krita.org",
+    "freePlanFeatures": [
+      "Extensive brush engines and customization (over 100 preloaded brushes)",
+      "Full color management (supports ICC profiles, CMYK, Lab)",
+      "Advanced layer management (vector, filter, group, file layers)",
+      "Selection and transformation tools",
+      "Symmetry tools, drawing assistants, and perspective grids",
+      "Animation and storyboarding tools (onion skinning, frame-by-frame raster animation)",
+      "Python scripting support for extending functionality",
+      "PSD (Photoshop document) import/export support",
+      "Completely free, no subscriptions or licensing fees"
+    ],
+    "freePlanLimitations": [
+      "Steep learning curve, especially for users new to digital painting software",
+      "Primarily focused on painting and illustration, less on photo manipulation",
+      "User interface can be complex for beginners",
+      "Resource-intensive, especially with large canvases or complex brushes",
+      "Text tool is less advanced compared to dedicated graphic design software",
+      "Community support (forums, documentation) is the primary support channel"
+    ],
+    "idealUseCase": "Excellent for digital painters, illustrators, concept artists, and comic creators who need a powerful, professional-level painting tool without cost. Its extensive brush system and art-focused features make it a strong free alternative to software like Corel Painter or Clip Studio Paint."
+  },
+  {
+    "id": "gravit-designer",
+    "name": "Gravit Designer (now Corel Vector)",
+    "description": "Gravit Designer, now part of Corel as Corel Vector, is a web-based vector graphics application. It offers a comprehensive suite of design tools. The previous free version is no longer available; access is now primarily through a subscription, with a 15-day free trial that grants temporary access to all premium features.",
+    "category": "Design",
+    "affiliate": false,
+    "tags": ["graphics", "vector", "illustration", "ui-design", "corel-vector"],
+    "url": "https://designer.io/",
+    "freePlanFeatures": [
+      "15-day free trial of all Pro features",
+      "Full vector editing toolkit (pen, bézier, shapes, etc.)",
+      "Advanced typography tools",
+      "Non-destructive effects and adjustments",
+      "Cloud storage and syncing (during trial)",
+      "Export to various formats (SVG, PDF, PNG, JPEG) (during trial)",
+      "Cross-platform (web, Windows, Mac, Linux, ChromeOS)"
+    ],
+    "freePlanLimitations": [
+      "The \"free\" offering is a 15-day trial of the Pro version",
+      "After the trial expires, a paid subscription is required for full functionality",
+      "The original generous free plan of Gravit Designer is discontinued",
+      "Post-trial access (if any) is severely limited, often restricting saving or exporting"
+    ],
+    "idealUseCase": "Suitable for designers wanting to evaluate a comprehensive web-based vector editor for a short period before committing to a subscription. Not ideal for users seeking a long-term, truly free vector design solution."
+  },
+  {
+    "id": "visme",
+    "name": "Visme",
+    "description": "Visme is a versatile cloud-based visual creation platform for producing presentations, infographics, social media graphics, short videos, and other branded content. The free plan offers basic functionality with some limitations.",
+    "category": "Design",
+    "affiliate": true,
+    "tags": [
+      "infographics",
+      "graphics",
+      "presentations",
+      "social-media-graphics",
+      "online-design"
+    ],
+    "url": "https://visme.co",
+    "affiliateUrl": "https://visme.co/referral",
+    "freePlanFeatures": [
+      "Create up to 5 projects",
+      "100 MB of storage",
+      "Access to a limited range of templates for various content types",
+      "Access to a limited selection of free photos and icons",
+      "Basic animation and interactivity features",
+      "Download projects as JPG",
+      "Embed projects on websites or share via a public link"
+    ],
+    "freePlanLimitations": [
+      "Visme branding (logo) will appear on all projects created with the free plan",
+      "Limited storage space (100 MB)",
+      "Restricted access to premium templates, icons, 3D graphics, and other assets",
+      "Download options are limited (PNG, PDF, PPTX, HTML5 offline, video MP4 are premium)",
+      "Fewer chart and data widget options",
+      "No Brand Kit feature for custom fonts, colors, and logos",
+      "Collaboration features are limited or unavailable",
+      "No privacy controls; projects are public by default",
+      "Limited analytics"
+    ],
+    "idealUseCase": "Suitable for students, educators, non-profits, or individuals who need to create a small number of visual projects for online sharing and are comfortable with Visme branding and public project visibility. A good way to explore the platform's capabilities."
+  },
+  {
+    "id": "adobe-express",
+    "name": "Adobe Express",
+    "description": "Adobe Express (formerly Adobe Spark) is an easy-to-use design app for creating social media graphics, flyers, logos, posters, videos, and more. Its free plan offers a good range of features, with premium options for more advanced capabilities.",
+    "category": "Design",
+    "affiliate": true,
+    "tags": ["banners", "social", "graphic-design", "video-editing", "adobe"],
+    "url": "https://express.adobe.com",
+    "affiliateUrl": "https://express.adobe.com/referral",
+    "freePlanFeatures": [
+      "Access to thousands of unique templates",
+      "Design assets, including a limited collection of Adobe Stock photos",
+      "Basic photo editing tools and effects (remove background, animate text)",
+      "Ability to create on both web and mobile",
+      "2GB of cloud storage",
+      "Create quick videos with basic editing tools",
+      "Basic PDF editing tools (combine files, organize pages)"
+    ],
+    "freePlanLimitations": [
+      "Limited selection of Adobe Stock photos (most require premium)",
+      "Premium templates and design assets are locked",
+      "Some advanced features like \"Convert to GIF\" or advanced resizing options may be premium",
+      "Brand Kit features (uploading your own logo, fonts, colors) are premium",
+      "Scheduling social media posts directly from Express is a premium feature",
+      "Higher quality export options might be restricted",
+      "Full Adobe Fonts library access is for premium users (free plan has a limited selection)"
+    ],
+    "idealUseCase": "Great for individuals, students, small business owners, and social media marketers who need a quick and intuitive tool for creating professional-looking graphics, short videos, and simple PDFs without needing extensive design skills."
+  },
+  {
+    "id": "fontawesome",
+    "name": "FontAwesome",
+    "description": "Font Awesome is a very popular icon library and toolkit, offering thousands of icons across various categories. Its free plan provides a substantial set of icons usable via CDN, direct download, or popular frontend frameworks.",
+    "category": "Design",
+    "affiliate": false,
+    "tags": ["icons", "web-design", "ui", "vector-icons", "cdn"],
+    "url": "https://fontawesome.com",
+    "freePlanFeatures": [
+      "Access to a large collection of free icons (thousands)",
+      "Includes solid, regular, and brands icon styles",
+      "Easy integration via CDN, or by downloading SVGs/CSS",
+      "Icons are vector-based and scalable",
+      "Basic styling options via CSS (color, size)",
+      "Widely supported in web development frameworks and design tools"
+    ],
+    "freePlanLimitations": [
+      "Does not include all icon styles (Light, Thin, Duotone are Pro)",
+      "A significant number of icons are Pro-only",
+      "No access to official Kits for easier project management and subsetting (though basic CDN use is fine)",
+      "No official technical support for free users",
+      "More advanced features like icon uploading, specific versioning with Kits, or team features are Pro"
+    ],
+    "idealUseCase": "Excellent for web developers, UI/UX designers, and content creators who need a robust and easy-to-use set of icons for websites, applications, and digital projects, and are comfortable with the free set's selection and styles."
+  },
+  {
+    "id": "google-fonts",
+    "name": "Google Fonts",
+    "description": "Google Fonts offers an extensive library of open-source designer web fonts, easily embeddable in websites or downloadable for desktop use.",
+    "category": "Design",
+    "affiliate": false,
+    "tags": ["typography", "fonts", "open-source", "web-design"],
+    "url": "https://fonts.google.com",
+    "freePlanFeatures": [
+      "Access to a vast collection of over 1,500 font families",
+      "All fonts are open source and free for commercial use",
+      "Easy-to-use API for web integration",
+      "Fonts can be downloaded for offline use",
+      "No account or sign-up required",
+      "Intuitive filtering by category, language, popularity, and font properties"
+    ],
+    "freePlanLimitations": [
+      "Being open source, font quality can occasionally vary, though most are professionally designed",
+      "Reliant on Google's infrastructure for web font hosting (though self-hosting is possible by downloading)"
+    ],
+    "idealUseCase": "Web designers, developers, graphic designers, and content creators needing a diverse range of high-quality, free fonts for websites, applications, and print materials without licensing complexities."
+  },
+  {
+    "id": "flaticon",
+    "name": "Flaticon",
+    "description": "Flaticon offers an extensive database of vector icons, with millions available for free in PNG format, suitable for various design projects, provided attribution is given.",
+    "category": "Design",
+    "affiliate": true,
+    "tags": ["icons", "vectors", "assets", "graphics"],
+    "url": "https://flaticon.com",
+    "affiliateUrl": "https://flaticon.com/referral",
+    "freePlanFeatures": [
+      "Access to a vast library of free icons (over 16 million mentioned)",
+      "Download icons in PNG format (typically up to 64px or 128px)",
+      "Ability to create a limited number of icon collections (e.g., 3 collections)",
+      "Basic icon customization like changing color before download"
+    ],
+    "freePlanLimitations": [
+      "Mandatory attribution required for all downloaded free icons",
+      "Limited download formats (SVG, EPS, Base64, and PSD are usually premium)",
+      "Daily download limit for free users (e.g., 10-100 icons per day)",
+      "Limited number of icon collections",
+      "Does not include access to the full range of premium icons",
+      "No access to the integrated editor for more advanced customizations"
+    ],
+    "idealUseCase": "Useful for designers, students, marketers, and content creators needing a broad selection of icons for web design, presentations, or marketing materials, who can comply with attribution requirements and work primarily with PNGs."
+  },
+  {
+    "id": "noun-project",
+    "name": "The Noun Project",
+    "description": "The Noun Project provides a vast library of high-quality, artfully-designed icons and a collection of photos, with a strong emphasis on diversity and global representation. The free tier allows usage with attribution.",
+    "category": "Design",
+    "affiliate": false,
+    "tags": ["icons", "photos", "diversity", "inclusive-design", "svg"],
+    "url": "https://thenounproject.com",
+    "freePlanFeatures": [
+      "Access to millions of curated icons created by a global community of designers",
+      "Access to a collection of high-quality, diverse photos",
+      "Download icons in PNG format",
+      "Download icons in SVG format (often black and white; color customization may require Pro)"
+    ],
+    "freePlanLimitations": [
+      "Mandatory attribution required for all icons and photos used under the free license",
+      "SVG downloads are typically black by default; color customization and other advanced features require a Pro subscription",
+      "Limited access to full API capabilities without a paid plan",
+      "Does not include royalty-free licenses for icons (attribution always needed for free tier)",
+      "May have daily download limits for free users"
+    ],
+    "idealUseCase": "Ideal for designers, educators, non-profits, and content creators seeking high-quality, diverse, and inclusive icons and photos for presentations, websites, educational materials, and creative projects, where providing attribution is acceptable."
+  },
+  {
+    "id": "nappy",
+    "name": "Nappy",
+    "description": "Nappy.co provides a curated collection of beautiful, high-resolution photos featuring Black and Brown individuals, completely free for both personal and commercial use, aiming to enhance representation in media and design.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": [
+      "diversity",
+      "photos",
+      "stock-photos",
+      "representation",
+      "free-images"
+    ],
+    "url": "https://nappy.co",
+    "freePlanFeatures": [
+      "Unlimited downloads of all available photos",
+      "All photos are high-resolution",
+      "Free for commercial and personal use",
+      "No attribution required (though appreciated)",
+      "Specifically focused on positive and authentic representation of Black and Brown people",
+      "Easy to browse and search"
+    ],
+    "freePlanLimitations": [
+      "The collection is focused specifically on Black and Brown people, so the range of subjects is more niche compared to broader stock photo sites",
+      "The total number of photos, while growing, is smaller than giant stock photo platforms"
+    ],
+    "idealUseCase": "Perfect for designers, marketers, bloggers, developers, and any creator looking for high-quality, authentic images of Black and Brown people to use in websites, presentations, social media, and other projects, especially when aiming for better representation."
+  },
+  {
+    "id": "coverr",
+    "name": "Coverr",
+    "description": "Coverr provides a hand-picked collection of beautiful, high-quality stock videos that are completely free for commercial and personal use, with no watermarks or need for attribution.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": [
+      "video",
+      "stock-video",
+      "free-footage",
+      "b-roll",
+      "website-backgrounds"
+    ],
+    "url": "https://coverr.co",
+    "freePlanFeatures": [
+      "Access to a growing library of curated stock videos",
+      "All videos are free to download and use for any purpose",
+      "High-quality footage, often with a cinematic feel",
+      "No watermarks on videos",
+      "No attribution required (though linking back is appreciated)",
+      "Simple download process (usually MP4 format)",
+      "Videos are categorized for easier browsing (e.g., nature, lifestyle, tech, aerial)"
+    ],
+    "freePlanLimitations": [
+      "The overall library size is smaller than large premium stock video platforms",
+      "While quality is high, the selection for very specific or niche topics might be limited",
+      "Predominantly shorter clips, suitable for backgrounds or b-roll"
+    ],
+    "idealUseCase": "Website designers needing background videos, social media marketers looking for engaging clips, content creators, and small businesses who require high-quality stock videos for their projects without budget constraints or complex licensing."
+  },
+  {
+    "id": "mixkit",
+    "name": "Mixkit",
+    "description": "Mixkit is a curated library of free stock video clips, stock music, sound effects, and video templates. Assets are generally free for commercial and personal use, often without attribution (always check individual asset licenses).",
+    "category": "Media",
+    "affiliate": false,
+    "tags": [
+      "stock",
+      "media",
+      "video-clips",
+      "stock-music",
+      "sound-effects",
+      "video-templates"
+    ],
+    "url": "https://mixkit.co",
+    "freePlanFeatures": [
+      "Access to a diverse gallery of high-quality stock video clips",
+      "Wide range of royalty-free stock music tracks across various genres",
+      "Extensive library of free sound effects",
+      "Collection of free video templates (Premiere Pro, After Effects, Final Cut Pro, DaVinci Resolve)",
+      "No attribution required for many assets (always check individual licenses, especially for music)",
+      "Unlimited downloads",
+      "No sign-up required for most downloads",
+      "New assets added regularly"
+    ],
+    "freePlanLimitations": [
+      "Library size might not be as large as some premium stock media sites",
+      "Specific or very niche search terms might yield limited results",
+      "Some music tracks or assets might have specific licensing terms or require attribution (verify per asset)",
+      "Video templates require compatible video editing software"
+    ],
+    "idealUseCase": "Excellent for video creators, marketers, YouTubers, social media managers, and anyone needing high-quality, free stock videos, music, sound effects, or video templates for their projects without complex licensing for many assets."
+  },
+  {
+    "id": "freesound",
+    "name": "FreeSound",
+    "description": "Freesound is a collaborative database of Creative Commons licensed sounds. It hosts a vast collection of audio snippets, samples, recordings, and more, contributed by its user community.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": [
+      "audio",
+      "sound-effects",
+      "samples",
+      "creative-commons",
+      "community"
+    ],
+    "url": "https://freesound.org",
+    "freePlanFeatures": [
+      "Access to hundreds of thousands of sound effects and audio samples",
+      "All sounds are under Creative Commons licenses (various types, check each one)",
+      "Download sounds in various formats (often WAV, MP3)",
+      "Advanced search options (by tags, duration, license, etc.)",
+      "Ability to interact with the community (forums, comments)",
+      "Users can upload their own sounds to contribute",
+      "API access for developers"
+    ],
+    "freePlanLimitations": [
+      "License types vary (CC0, Attribution, NonCommercial, etc.) - MUST check and comply with each license",
+      "Sound quality can vary greatly as it's user-generated content",
+      "Interface can be dated/utilitarian compared to commercial sound libraries",
+      "Finding highly specific or professionally mastered sounds can be challenging",
+      "Requires user registration to download sounds"
+    ],
+    "idealUseCase": "Fantastic for sound designers, game developers, filmmakers, musicians, and experimental artists looking for a wide variety of sound effects and samples, especially when on a budget and comfortable navigating Creative Commons licenses."
+  },
+  {
+    "id": "bensound",
+    "name": "Bensound",
+    "description": "Bensound offers a collection of royalty-free music tracks composed by Benjamin Tissot. Music can be used for free in various multimedia projects under specific Creative Commons license conditions (attribution required).",
+    "category": "Media",
+    "affiliate": false,
+    "tags": [
+      "music",
+      "royalty-free",
+      "background-music",
+      "creative-commons",
+      "attribution"
+    ],
+    "url": "https://bensound.com",
+    "freePlanFeatures": [
+      "Access to a curated library of music tracks across various genres (acoustic, cinematic, pop, electronic, etc.)",
+      "Download MP3 versions of the tracks for free",
+      "Use music in online videos (YouTube, Facebook, etc.), animations, presentations, and educational projects",
+      "Clear licensing information provided on the website"
+    ],
+    "freePlanLimitations": [
+      "Mandatory attribution is required for the free license (e.g., \"Music: https://www.bensound.com\" or \"Music by Bensound\")",
+      "Free license does not cover use in audiobooks, podcasts, songs, or for creating music remixes",
+      "Cannot be used in projects distributed nationally/internationally on TV/Radio or in theaters (paid license needed)",
+      "Cannot be used for projects where music is the main focus (e.g., music compilations)",
+      "Higher quality WAV files are typically part of paid licenses",
+      "Free selection is smaller than the full library available with paid licenses"
+    ],
+    "idealUseCase": "Great for content creators, YouTubers, students, and small businesses needing quality background music for online videos, presentations, or non-commercial projects, who can easily provide attribution as required by the free license."
+  },
+  {
+    "id": "free-music-archive",
+    "name": "Free Music Archive",
+    "description": "The Free Music Archive (FMA) is an interactive library of high-quality, legal audio downloads, primarily featuring music under various Creative Commons licenses, curated by WFMU and others.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": [
+      "audio",
+      "music",
+      "creative-commons",
+      "independent-music",
+      "royalty-free"
+    ],
+    "url": "https://freemusicarchive.org",
+    "freePlanFeatures": [
+      "Access to a massive and diverse collection of music from independent artists and labels",
+      "Music curated by WFMU and other established curators",
+      "All tracks available under various Creative Commons licenses and some Public Domain",
+      "Download tracks for free (usually MP3)",
+      "Browse by genre, curator, or chart",
+      "Stream tracks before downloading",
+      "No registration typically required to stream or download"
+    ],
+    "freePlanLimitations": [
+      "License types vary significantly (CC0, Attribution, NonCommercial, ShareAlike, NoDerivatives, etc.) - MUST meticulously check and comply with each license",
+      "Not all music is cleared for commercial use; many tracks are NonCommercial only",
+      "Finding music for specific moods or commercial projects can require careful filtering and license checking",
+      "Website interface, while functional, can be less slick than commercial music libraries",
+      "Music quality can vary, though generally good due to curation"
+    ],
+    "idealUseCase": "An excellent resource for music enthusiasts, DJs, podcasters, filmmakers, and content creators looking for unique, independent music, especially for non-commercial projects or those comfortable navigating and adhering to specific Creative Commons licenses. Great for discovering new artists."
+  },
+  {
+    "id": "obs-studio",
+    "name": "OBS Studio",
+    "description": "Professional-grade, open-source software for live streaming and video recording with advanced scene composition and mixing.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": ["recording", "live-stream", "broadcasting", "open-source"],
+    "url": "https://obsproject.com",
+    "freePlanFeatures": [
+      "High-performance real-time video/audio capturing and mixing",
+      "Unlimited scenes with custom transitions",
+      "Multiple sources (window capture, image, text, browser, webcam, capture card)",
+      "Advanced audio mixer with per-source filters",
+      "Powerful configuration options for every streaming platform",
+      "Modular 'Dock' UI for rearranging layout",
+      "Studio Mode for previewing scenes before going live",
+      "Plugin ecosystem for extended functionality",
+      "No recording time limits or watermarks"
+    ],
+    "freePlanLimitations": [
+      "Complex interface with steep learning curve",
+      "Resource-intensive (requires decent computer specs)",
+      "Limited built-in editing capabilities",
+      "No cloud storage or automatic backups",
+      "Requires manual setup for optimal streaming settings",
+      "Can be overwhelming for beginners",
+      "May need additional plugins for advanced features"
+    ],
+    "idealUseCase": "Essential for content creators serious about live streaming, recording gameplay, creating tutorials, or producing professional-quality video content. Best for those willing to learn a powerful but complex tool."
+  },
+  {
+    "id": "shotcut",
+    "name": "Shotcut",
+    "description": "A free, open-source, cross-platform video editor with a wide range of features and format support.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": ["video-editing", "open-source", "cross-platform", "4k"],
+    "url": "https://shotcut.org",
+    "freePlanFeatures": [
+      "Supports a wide range of video, audio, and image formats (FFmpeg)",
+      "Native timeline editing with no import required for many formats",
+      "Multi-format timeline mixing (resolutions, frame rates)",
+      "Advanced audio editing features (filters, mixing, volume control)",
+      "Video effects and transitions (compositing, color correction, stabilization)",
+      "Support for 4K resolutions",
+      "Screen, webcam, and audio capture",
+      "No watermarks or export limitations",
+      "Cross-platform (Windows, Mac, Linux)"
+    ],
+    "freePlanLimitations": [
+      "Interface can be less intuitive than some commercial editors",
+      "Steeper learning curve for beginners",
+      "Performance can vary with complex projects or lower-spec hardware",
+      "Fewer built-in templates and stock assets compared to paid software",
+      "Some advanced features might require manual configuration or workarounds",
+      "Occasional stability issues have been reported by some users",
+      "Limited direct cloud integration"
+    ],
+    "idealUseCase": "Great for hobbyists, students, and content creators looking for a powerful, free video editor without watermarks. Suitable for editing YouTube videos, tutorials, and personal projects, especially if you need broad format support and 4K capabilities."
+  },
+  {
+    "id": "davinci-resolve",
+    "name": "DaVinci Resolve",
+    "description": "A professional-grade video editing, color correction, visual effects, and audio post-production software.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": ["video-editing", "color-grading", "professional", "4k"],
+    "url": "https://blackmagicdesign.com/products/davinciresolve",
+    "freePlanFeatures": [
+      "Extensive editing tools",
+      "Advanced color grading capabilities (primary color wheels, LUT support)",
+      "Wide array of effects (masking, tracking, green screen, stabilization, slow motion)",
+      "Fairlight audio editing suite with noise reduction and compression",
+      "Ability to create custom aspect ratios",
+      "Export up to 4K Ultra HD (3840x2160) at 60 fps",
+      "No watermark on export"
+    ],
+    "freePlanLimitations": [
+      "Does not support certain professional formats/codecs (AVCHD, HEIF, Sony XAVC, 10-bit H.264)",
+      "Timeline resolution limited to UHD 3840x2160 (no DCI 4K)",
+      "Framerate limited to 60fps",
+      "Utilizes only a single GPU (Studio version uses multiple)",
+      "Lacks some advanced AI-powered features (Magic Mask, Smart Reframe, Face Refinement)",
+      "Over 30 specific effects are Studio-only (Lens Correction, Motion Blur, Film Grain)",
+      "No HDR scopes or grading for stereoscopic 3D projects",
+      "Some advanced audio features like Voice Isolation and Dolby Atmos are Studio-exclusive"
+    ],
+    "idealUseCase": "Excellent for creators serious about video quality, especially color grading, who are willing to invest time in learning a complex tool. Suitable for short films, music videos, and high-quality YouTube content."
+  },
+  {
+    "id": "lightworks",
+    "name": "Lightworks",
+    "description": "Lightworks is a professional-grade non-linear editing (NLE) software for video. Its free version offers many powerful features but has limitations, primarily on export formats and resolutions.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": [
+      "video",
+      "video-editing",
+      "nle",
+      "professional-editor",
+      "free-video-editor"
+    ],
+    "url": "https://lwks.com",
+    "freePlanFeatures": [
+      "All essential video editing tools (trimming, effects, multicam editing)",
+      "Real-time effects with built-in presets",
+      "Advanced color correction and grading tools",
+      "Support for a wide range of import formats",
+      "Access to some royalty-free audio and video content",
+      "Customizable interface"
+    ],
+    "freePlanLimitations": [
+      "Export limited to H.264/MP4 format at a maximum resolution of 720p (HD)",
+      "Higher resolutions (1080p, 4K) and other formats require a Pro license",
+      "Some advanced features are Pro-only (e.g., advanced project sharing, timeline rendering for complex effects, some third-party plugin support)",
+      "Boris FX and Graffiti plugins are not available in the free version",
+      "No user-definable project locations (projects saved in default Lightworks folder)",
+      "Free license needs to be renewed every 7 days by logging in (quick process)"
+    ],
+    "idealUseCase": "Good for students, hobbyists, and aspiring video editors who want to learn on a professional NLE and need robust editing tools for projects that can be exported at 720p for web/social media."
+  },
+  {
+    "id": "capcut",
+    "name": "CapCut",
+    "description": "A versatile and user-friendly video editing application available on desktop and mobile, packed with features for creating engaging social media content.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": [
+      "mobile",
+      "video",
+      "social-media",
+      "desktop-editing",
+      "free-editor"
+    ],
+    "url": "https://capcut.com",
+    "freePlanFeatures": [
+      "Multi-track video and audio editing",
+      "Wide range of trendy effects, filters, and transitions",
+      "Text overlays, stickers, and emojis",
+      "Speed controls (slow motion, fast motion)",
+      "Auto captions and lyrics generation",
+      "Basic background removal (Chroma Key and Cutout)",
+      "Extensive library of royalty-free music and sound effects (some Pro)",
+      "Direct export to TikTok, Instagram, YouTube, and other social platforms",
+      "Available on iOS, Android, Windows, and Mac",
+      "No watermarks on exported videos (standard for free version)"
+    ],
+    "freePlanLimitations": [
+      "Some advanced effects, filters, transitions, and AI features are Pro-only (marked with a Pro badge)",
+      "Cloud storage for backups and syncing across devices is limited for free users",
+      "Team collaboration features are generally part of paid plans (especially on desktop)",
+      "Higher quality export options (e.g., higher bitrates, specific codecs) may be restricted",
+      "Access to the full stock media library (video, audio, stickers) requires Pro subscription",
+      "Desktop version may have more Pro features than mobile, or vice-versa depending on updates"
+    ],
+    "idealUseCase": "Perfect for TikTokers, Instagram Reel creators, YouTubers, and anyone needing a quick, intuitive, and feature-rich video editor for social media content. Its mobile app is particularly strong for on-the-go editing, while the desktop version offers more robust capabilities for free."
+  },
+  {
+    "id": "openshot",
+    "name": "OpenShot",
+    "description": "OpenShot Video Editor is a free, open-source, and cross-platform video editor, designed to be easy to use, quick to learn, and surprisingly powerful.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": [
+      "video",
+      "video-editing",
+      "open-source",
+      "cross-platform",
+      "free-video-editor"
+    ],
+    "url": "https://openshot.org",
+    "freePlanFeatures": [
+      "Completely free and open-source",
+      "Cross-platform (Linux, Mac, and Windows)",
+      "Support for many video, audio, and image formats (FFmpeg based)",
+      "Powerful curve-based Key frame animations",
+      "Desktop integration (drag and drop support)",
+      "Unlimited tracks/layers for watermarks, background videos, audio tracks, etc.",
+      "Clip resizing, scaling, trimming, snapping, rotation, and cutting",
+      "Video transitions with real-time previews",
+      "Compositing, image overlays, watermarks",
+      "Title templates, title creation, sub-titles (including 3D animated titles)",
+      "Advanced Timeline (drag & drop, scrolling, panning, zooming, snapping)",
+      "Frame accuracy (step through each video frame)",
+      "Time-mapping and speed changes on clips",
+      "Audio mixing and editing features",
+      "Digital video effects (brightness, gamma, hue, greyscale, chroma key, etc.)"
+    ],
+    "freePlanLimitations": [
+      "Performance can sometimes be slow with complex projects or high-resolution footage on less powerful hardware",
+      "Users have reported occasional stability issues or bugs",
+      "Interface might feel less polished than some commercial alternatives",
+      "May lack some very advanced professional features found in high-end NLEs"
+    ],
+    "idealUseCase": "Excellent for beginners and intermediate users looking for a capable, free, and open-source video editor without watermarks for creating YouTube videos, family movies, social media content, or educational projects."
+  },
+  {
+    "id": "audacity",
+    "name": "Audacity",
+    "description": "A free, open-source, cross-platform audio software for multi-track recording and editing.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": ["audio", "podcast", "recording", "open-source", "editing"],
+    "url": "https://audacityteam.org",
+    "freePlanFeatures": [
+      "Records and edits audio (mono, stereo, or multitrack)",
+      "Supports sample rates up to 384 kHz and bit depths up to 32-bit float",
+      "Imports and exports WAV, AIFF, MP3, Ogg Vorbis, FLAC, and other formats",
+      "Extensive built-in effects (EQ, compression, noise reduction, normalization, reverb, etc.)",
+      "Support for VST, VST3, AU, LADSPA, and LV2 plugins",
+      "Spectrogram view for visualizing frequencies",
+      "Basic mixing capabilities",
+      "Batch processing for applying effects to multiple files",
+      "Completely free and open source with no watermarks or usage restrictions"
+    ],
+    "freePlanLimitations": [
+      "Non-destructive editing is limited; most edits are destructive by default (though undo is available)",
+      "User interface can feel dated or less intuitive compared to modern commercial DAWs",
+      "MIDI support is very basic (no instrument plugins)",
+      "Multitrack recording setup can be less straightforward than in dedicated DAWs for complex setups",
+      "Steeper learning curve for some advanced features"
+    ],
+    "idealUseCase": "Excellent for podcasters, voice-over artists, musicians needing basic recording/editing, students, and anyone needing a powerful, free tool for audio editing, recording, and format conversion."
+  },
+  {
+    "id": "garageband",
+    "name": "GarageBand",
+    "description": "GarageBand is a free, fully equipped music creation studio for Mac and iOS devices. It offers a comprehensive set of tools for recording, creating, and sharing music, with a user-friendly interface.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": ["audio", "music-production", "daw", "apple", "ios", "mac"],
+    "url": "https://apple.com/mac/garageband",
+    "freePlanFeatures": [
+      "Completely free with macOS and iOS devices",
+      "Intuitive interface for music creation, recording, and mixing",
+      "Wide selection of software instruments (keyboards, synths, drums, guitars, orchestral)",
+      "Drummer VST with virtual session drummers and styles",
+      "Guitar and bass amp/effects simulators",
+      "Multi-track recording (up to 255 tracks)",
+      "Extensive library of Apple Loops",
+      "Basic music notation editor and audio editing tools (trim, quantize, flex time)",
+      "Built-in EQ, compression, and other effects",
+      "Share directly to SoundCloud, Apple Music Connect, or export"
+    ],
+    "freePlanLimitations": [
+      "Only available on Apple devices (macOS and iOS)",
+      "Lacks some advanced features and routing flexibility of professional DAWs (e.g., Logic Pro X)",
+      "Sound library, while extensive, might not cover all niche needs",
+      "Limited mastering capabilities compared to dedicated software",
+      "Sharing and collaboration primarily within the Apple ecosystem"
+    ],
+    "idealUseCase": "Perfect for Mac and iOS users, from beginners to experienced musicians, who want a powerful and intuitive free tool for songwriting, recording demos, creating podcasts, or producing music for videos."
+  },
+  {
+    "id": "anchor",
+    "name": "Spotify for Podcasters (formerly Anchor.fm)",
+    "description": "Spotify for Podcasters (formerly Anchor.fm) is a free, all-in-one platform for creating, distributing, and monetizing podcasts. It's designed to be extremely user-friendly, especially for beginners.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": ["podcast", "hosting", "distribution", "monetization", "spotify"],
+    "url": "https://podcasters.spotify.com/",
+    "freePlanFeatures": [
+      "Completely free to use",
+      "Unlimited podcast hosting (no storage limits or trial periods)",
+      "Easy-to-use recording and editing tools (mobile and web)",
+      "Music and sound effects library",
+      "Automatic distribution to major podcast platforms (Spotify, Apple Podcasts, Google Podcasts, etc.)",
+      "Podcast analytics to track listener engagement and demographics",
+      "Various monetization options (Podcast Subscriptions, Listener Support, Ambassador Ads, Automated Ads - eligibility may vary)",
+      "Customizable podcast website",
+      "Ability to create video podcasts (on Spotify)"
+    ],
+    "freePlanLimitations": [
+      "Editing tools are basic compared to professional DAWs; suitable for simpler shows or those who edit elsewhere",
+      "Monetization features often involve Spotify taking a cut or have specific payout thresholds/terms",
+      "Limited control over RSS feed compared to some paid hosting providers",
+      "Reliance on Spotify ecosystem for some features (e.g., video podcasts primarily for Spotify)",
+      "Direct submission to every minor directory might still require manual effort"
+    ],
+    "idealUseCase": "Excellent for beginners and hobbyist podcasters wanting a completely free, easy-to-use platform to create, host, and distribute their show with built-in monetization options. Also good for experimenting with podcasting without upfront costs."
+  },
+  {
+    "id": "podbean",
+    "name": "Podbean",
+    "description": "Podbean is a podcast hosting platform offering tools for publishing, promoting, and monetizing podcasts. Its free plan provides basic features suitable for new podcasters with limited storage.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": ["podcast", "hosting", "analytics", "distribution"],
+    "url": "https://podbean.com",
+    "freePlanFeatures": [
+      "5 hours of total storage space",
+      "100GB of monthly bandwidth",
+      "Basic podcast statistics",
+      "A free podcast website (e.g., yourname.podbean.com)",
+      "Embeddable player for websites",
+      "Ability to publish to major directories like Apple Podcasts, Spotify, Google Podcasts"
+    ],
+    "freePlanLimitations": [
+      "Limited storage (5 hours total) - requires upgrading for more episodes",
+      "Bandwidth (100GB/month) could be a constraint for very popular shows on free plan",
+      "No advanced statistics or listener demographics",
+      "Monetization options (premium content, patron programs, ad marketplace) generally reserved for paid plans",
+      "Limited website customization on the free plan",
+      "No video podcast support on the free plan",
+      "Podbean branding may be present",
+      "Limited support options"
+    ],
+    "idealUseCase": "Good for individuals just starting out with podcasting who want to test the waters with a few episodes and need a simple hosting solution with basic analytics before committing to a paid plan."
+  },
+  {
+    "id": "auphonic",
+    "name": "Auphonic",
+    "description": "Auphonic is an automated audio post-production web service that normalizes audio levels, reduces noise and hum, and performs other audio processing tasks automatically, saving significant time for podcasters, broadcasters, and video creators.",
+    "category": "Media",
+    "affiliate": true,
+    "tags": [
+      "audio",
+      "podcast",
+      "post-production",
+      "leveling",
+      "noise-reduction",
+      "automation"
+    ],
+    "url": "https://auphonic.com",
+    "affiliateUrl": "https://auphonic.com/referral",
+    "freePlanFeatures": [
+      "Processes up to 2 hours of audio per month for free (recurring credits)",
+      "Automatic loudness normalization (EBU R128, ATSC A/85, podcast standards)",
+      "Intelligent Leveler (balances speakers, music, and speech)",
+      "Adaptive Noise and Hum Reduction",
+      "High-pass filtering",
+      "Encoding to various audio formats (MP3, AAC, WAV, FLAC, Opus)",
+      "Automatic deployment to connected external services (FTP, Libsyn, YouTube, Dropbox, etc.)",
+      "Batch processing of multiple files",
+      "Basic speech recognition/transcript integration (via external services)"
+    ],
+    "freePlanLimitations": [
+      "Limited to 2 hours of processed audio per month",
+      "Some advanced features or faster processing may require paid credits",
+      "Number of concurrent external services for certain actions might be limited",
+      "Transcripts via third-party services subject to their respective free tier limits and costs"
+    ],
+    "idealUseCase": "Ideal for podcasters, screencasters, and video creators needing quick, automated audio quality improvement (up to 2 hours/month) for tasks like loudness consistency and basic noise reduction without manual effort."
+  },
+  {
+    "id": "soundcloud",
+    "name": "SoundCloud",
+    "description": "SoundCloud is a major audio distribution platform and music sharing website allowing users to upload, promote, and share their originally-created audio. It's widely used by musicians, podcasters, and various audio creators.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": ["music", "audio", "podcast", "hosting", "distribution", "sharing"],
+    "url": "https://soundcloud.com",
+    "freePlanFeatures": [
+      "Upload up to 3 hours of audio in total",
+      "Basic statistics (plays, likes, comments, reposts)",
+      "Embeddable players for websites and social media integration",
+      "Option to make tracks public or private",
+      "Basic profile customization",
+      "Direct interaction with listeners and other creators",
+      "Provides an RSS feed, enabling podcast distribution (constrained by total upload limit)"
+    ],
+    "freePlanLimitations": [
+      "Strict 3-hour total upload limit for all audio on the account",
+      "No further uploads once limit is reached without deleting content or upgrading",
+      "Limited statistics (no detailed listener demographics, geographic data, advanced analytics)",
+      "No feature to schedule releases in advance",
+      "Replacing audio file for an existing track results in loss of its statistics (paid feature)",
+      "Fewer profile customization options compared to paid tiers",
+      "Monetization features (SoundCloud Premier, fan-powered royalties) generally not available to free users",
+      "No \"quiet mode\" (e.g., cannot disable comments or hide public stats on tracks)",
+      "Cannot pin tracks to the top of the profile"
+    ],
+    "idealUseCase": "Suitable for new artists, musicians, and podcasters aiming to share initial tracks/episodes, gather early feedback, and establish a basic online presence. Also useful for private audio sharing. Not ideal for those with extensive content or needing detailed analytics/monetization."
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube",
+    "description": "YouTube is the world's largest video sharing platform, enabling users to upload, view, rate, share, create playlists, report, comment on videos, and subscribe to other users. It offers unparalleled reach and monetization avenues for creators.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": [
+      "video",
+      "hosting",
+      "streaming",
+      "monetization",
+      "community",
+      "vlogging"
+    ],
+    "url": "https://youtube.com",
+    "freePlanFeatures": [
+      "Unlimited video uploads (account verification for videos >15 mins)",
+      "Access to a massive global audience",
+      "YouTube Studio for channel/video management, analytics, comments",
+      "Detailed analytics (watch time, demographics, traffic sources, engagement)",
+      "Potential monetization via YouTube Partner Program (YPP) upon meeting eligibility",
+      "Live streaming capabilities",
+      "In-platform video editing tools (trim, blur, end screens, audio library)",
+      "Customizable channel page (layout, branding, trailer)",
+      "Community features (posts, comments, @mentions)",
+      "Playlists and video organization",
+      "Copyright management tools (Content ID for eligible creators)",
+      "Creative Commons licensing options"
+    ],
+    "freePlanLimitations": [
+      "Monetization requires YPP eligibility/approval; revenue is shared with YouTube",
+      "Ads displayed on most content, controlled by YouTube (unless in YPP with ad control)",
+      "Subject to YouTube's community guidelines, copyright policies, and terms; violations can lead to strikes/termination",
+      "Video discovery heavily reliant on YouTube's algorithm",
+      "Extremely high competition",
+      "Downloading original uploaded videos may result in slightly lower quality than master",
+      "Direct fan funding beyond YPP features (Super Chat, Memberships) often needs third-party platforms"
+    ],
+    "idealUseCase": "Essential for any video creator seeking wide distribution, audience building, and potential monetization. Suitable for vlogs, tutorials, reviews, music videos, educational content, entertainment, and more."
+  },
+  {
+    "id": "youtube-downloader",
+    "name": "YouTube Downloader",
+    "description": "A local YouTube video downloader tool built into Indie Creator Hub. Download YouTube videos in multiple quality options for personal, educational, and research use.",
+    "category": "Media",
+    "affiliate": false,
+    "tags": [
+      "youtube",
+      "download",
+      "video",
+      "mp4",
+      "converter",
+      "personal-use"
+    ],
+    "url": "/tools/youtube-downloader",
+    "freePlanFeatures": [
+      "Download YouTube videos in multiple quality options (360p to 1080p HD)",
+      "Audio-only download option (M4A format)",
+      "Real-time download progress tracking",
+      "Automatic video information extraction (title, duration, thumbnail)",
+      "Secure local processing - no data sent to external servers",
+      "Support for all major YouTube URL formats",
+      "Professional user interface with legal guidelines",
+      "Direct download to your device"
+    ],
+    "freePlanLimitations": [
+      "Requires yt-dlp to be installed locally on your system",
+      "Subject to YouTube's Terms of Service and copyright restrictions",
+      "Only for personal, educational, and research use",
+      "Cannot download copyrighted content without permission",
+      "Requires internet connection for downloading",
+      "Download speed depends on your internet connection",
+      "File storage limited by your device's available space"
+    ],
+    "idealUseCase": "Perfect for educators, researchers, and creators who need to download their own content or public domain videos for offline viewing, educational presentations, or legitimate research purposes. Essential tool for archiving and personal content management."
+  },
+  {
+    "id": "mailchimp",
+    "name": "Mailchimp",
+    "description": "A comprehensive email marketing platform with automation, audience management, and analytics tools.",
+    "category": "Marketing",
+    "affiliate": false,
+    "tags": ["email", "newsletters", "automation", "marketing"],
+    "url": "https://mailchimp.com",
+    "freePlanFeatures": [
+      "Up to 500 contacts",
+      "Send up to 1,000 emails per month",
+      "Basic email templates and design tools",
+      "Signup forms and landing pages",
+      "Basic audience insights and analytics",
+      "Social media integration",
+      "Mobile app for managing campaigns",
+      "Basic automation (welcome emails)",
+      "Mailchimp branding on emails"
+    ],
+    "freePlanLimitations": [
+      "Limited to 500 contacts maximum",
+      "Only 1,000 emails per month sending limit",
+      "Mailchimp branding appears on all emails",
+      "Limited automation features",
+      "No A/B testing capabilities",
+      "Basic customer support (email only)",
+      "Limited integrations with third-party tools",
+      "No advanced segmentation or personalization",
+      "No phone or priority support"
+    ],
+    "idealUseCase": "Great for beginners starting email marketing with a small audience. Perfect for bloggers, small businesses, or creators building their first email list and learning email marketing basics."
+  },
+  {
+    "id": "mailerlite",
+    "name": "MailerLite",
+    "description": "An intuitive email marketing platform known for its user-friendly interface, generous free plan, and modern features.",
+    "category": "Marketing",
+    "affiliate": true,
+    "tags": ["email", "newsletter", "automation", "landing-pages"],
+    "url": "https://mailerlite.com",
+    "affiliateUrl": "https://mailerlite.com/referral",
+    "freePlanFeatures": [
+      "Up to 1,000 subscribers",
+      "12,000 emails per month",
+      "1 user account",
+      "Drag & drop email editor",
+      "Email automation builder (e.g., welcome series)",
+      "Landing pages (up to 10)",
+      "Signup forms and pop-ups",
+      "Basic segmentation and tagging",
+      "Reporting and analytics",
+      "Website builder (1 website)"
+    ],
+    "freePlanLimitations": [
+      "MailerLite logo displayed in emails sent on the free plan",
+      "Limited email templates compared to paid plans",
+      "No A/B testing for email campaigns",
+      "Fewer automation triggers and conditions",
+      "Basic reporting (no click maps or advanced analytics)",
+      "Limited integrations with some third-party apps",
+      "No dedicated IP address option",
+      "Customer support limited to email (first 30 days for free plan users)"
+    ],
+    "idealUseCase": "Excellent for creators, bloggers, and small businesses starting with email marketing or with a list under 1,000 subscribers. Its ease of use and features like landing pages and automation make it a strong free contender."
+  },
+  {
+    "id": "convertkit",
+    "name": "ConvertKit",
+    "description": "ConvertKit is an email marketing platform tailored for online creators (bloggers, authors, course instructors, YouTubers), focusing on audience building and email automation with a creator-centric approach.",
+    "category": "Marketing",
+    "affiliate": true,
+    "tags": [
+      "email",
+      "newsletters",
+      "marketing-automation",
+      "landing-pages",
+      "creators"
+    ],
+    "url": "https://convertkit.com",
+    "affiliateUrl": "https://convertkit.com/referral",
+    "freePlanFeatures": [
+      "Manage up to 1,000 subscribers",
+      "Unlimited landing pages and forms (with ConvertKit branding)",
+      "Unlimited email broadcasts",
+      "Audience tagging and segmentation",
+      "Sell digital products & subscriptions (transaction fee applies, e.g., 3.5% + 30c)",
+      "Community support",
+      "Creator profile to showcase work",
+      "Tip jar for donations"
+    ],
+    "freePlanLimitations": [
+      "Limited to 1,000 subscribers",
+      "No automated email sequences (funnels) - paid feature",
+      "No visual automation builder - paid feature",
+      "Integrations with some third-party tools may be limited or require paid plan",
+      "No A/B testing for broadcasts or forms",
+      "ConvertKit branding on landing pages and forms",
+      "No access to premium support",
+      "Reporting and analytics are more basic than paid plans"
+    ],
+    "idealUseCase": "Good for creators starting an email list (up to 1,000 subscribers) needing robust landing page/form capabilities and broadcast sending. Useful for selling digital products/subscriptions simply, without immediate need for complex automations."
+  },
+  {
+    "id": "substack",
+    "name": "Substack",
+    "description": "Substack simplifies launching and managing an email newsletter (free or paid subscription). It integrates a blog, newsletter, payment system, and community features.",
+    "category": "Marketing",
+    "affiliate": false,
+    "tags": [
+      "newsletters",
+      "blogging",
+      "writing",
+      "publishing",
+      "monetization",
+      "community"
+    ],
+    "url": "https://substack.com",
+    "freePlanFeatures": [
+      "Publish free newsletter and/or blog posts",
+      "Unlimited free subscribers",
+      "Unlimited email sends to free subscribers",
+      "Content hosted on yourname.substack.com subdomain",
+      "Basic analytics (open rates, subscriber growth)",
+      "Community engagement features (comments, discussion threads)",
+      "Podcast hosting and distribution included",
+      "Option to introduce paid subscriptions (Substack takes 10% cut + Stripe fees)"
+    ],
+    "freePlanLimitations": [
+      "If paid subscriptions enabled, Substack takes 10% revenue share + Stripe fees",
+      "Limited design customization options for the publication website",
+      "Lacks advanced email marketing (complex segmentation, A/B testing, sophisticated automation)",
+      "Analytics are basic compared to dedicated email platforms",
+      "Platform has some \"walled garden\" characteristics, though content/list export is possible",
+      "Limited native integrations with third-party marketing tools or CRMs",
+      "Payment processing tied to Stripe availability"
+    ],
+    "idealUseCase": "Excellent for writers, journalists, and creators wanting a simple, all-in-one solution to publish a newsletter/blog, build an audience, and potentially monetize via subscriptions without upfront costs. Ideal for those prioritizing ease of use over extensive customization."
+  },
+  {
+    "id": "beehiiv",
+    "name": "Beehiiv",
+    "description": "Beehiiv is an email newsletter platform built for growth, offering tools to publish content, attract subscribers, and monetize. It targets creators seeking a feature-rich alternative.",
+    "category": "Marketing",
+    "affiliate": false,
+    "tags": [
+      "newsletters",
+      "email-marketing",
+      "creators",
+      "publishing",
+      "growth"
+    ],
+    "url": "https://www.beehiiv.com",
+    "freePlanFeatures": [
+      "Up to 2,500 subscribers on the Launch (free) plan",
+      "Unlimited email sends",
+      "Customizable web-based newsletter and website (yourname.beehiiv.com or custom domain)",
+      "Newsletter templates and visual editor",
+      "Basic audience segmentation",
+      "Analytics (subscriber growth, email open/click rates)",
+      "Import existing subscribers",
+      "Referral program tools",
+      "Basic SEO tools for website",
+      "Built-in recommendation network for discoverability"
+    ],
+    "freePlanLimitations": [
+      "Subscriber limit of 2,500 on the free plan",
+      "Beehiiv branding on website and emails (often subtle)",
+      "No access to advanced automation features",
+      "No A/B testing capabilities",
+      "Advanced segmentation options are limited",
+      "No access to premium integrations or API access",
+      "Direct monetization features (e.g., premium subscriptions, ad network) generally reserved for paid plans",
+      "Team access/multiple users typically not included",
+      "Customer support may be limited (community/email)"
+    ],
+    "idealUseCase": "Excellent for creators focused on growing their audience up to 2,500 subscribers, wanting modern publishing tools, a customizable website, and built-in growth features like referrals, without needing immediate advanced automation or direct platform monetization."
+  },
+  {
+    "id": "sendinblue",
+    "name": "Brevo (formerly Sendinblue)",
+    "description": "Brevo (formerly Sendinblue) is a comprehensive digital marketing platform offering email & SMS marketing, chat, CRM, automation, landing pages, and more, aiming to be an all-in-one suite.",
+    "category": "Marketing",
+    "affiliate": true,
+    "tags": ["email", "crm", "chat", "automation", "sms", "marketing-platform"],
+    "url": "https://www.brevo.com",
+    "affiliateUrl": "https://brevo.com/referral",
+    "freePlanFeatures": [
+      "Up to 300 emails per day",
+      "Unlimited contacts storage",
+      "Email marketing (customizable templates, drag-and-drop editor)",
+      "Basic marketing automation (up to 2,000 contacts in workflows)",
+      "Transactional emails (order confirmations, password resets)",
+      "CRM (Customer Relationship Management)",
+      "Website chat widget",
+      "Sign-up forms",
+      "Basic reporting and analytics",
+      "1 shared inbox"
+    ],
+    "freePlanLimitations": [
+      "Daily sending limit of 300 emails",
+      "Brevo branding in emails on free plan",
+      "No A/B testing on free plan",
+      "Landing page builder not included in free plan",
+      "Advanced marketing automation features limited/unavailable",
+      "Advanced segmentation and reporting not included",
+      "No phone support (email support available)",
+      "Uses shared IPs (no dedicated IP option on free plan)",
+      "Limited access to features like heat maps or advanced integrations",
+      "Transactional SMS requires purchased credits"
+    ],
+    "idealUseCase": "Suitable for small businesses, startups, and creators needing a multi-functional platform with free CRM, chat, and limited daily email sending for marketing and transactional purposes. Good for starting out with an integrated toolset."
+  },
+  {
+    "id": "aweber",
+    "name": "AWeber",
+    "description": "AWeber is an email marketing platform providing tools for businesses and creators to connect with audiences via email newsletters, autoresponders, landing pages, and sign-up forms.",
+    "category": "Marketing",
+    "affiliate": true,
+    "tags": [
+      "email",
+      "email-marketing",
+      "landing-pages",
+      "automation",
+      "newsletters"
+    ],
+    "url": "https://www.aweber.com",
+    "affiliateUrl": "https://aweber.com/referral",
+    "freePlanFeatures": [
+      "Up to 500 subscribers",
+      "Send up to 3,000 emails per month",
+      "1 list profile",
+      "Drag-and-drop email builder & pre-built templates",
+      "Unlimited landing pages (with AWeber branding)",
+      "Unlimited sign-up forms (with AWeber branding)",
+      "Basic audience segmentation and tagging",
+      "Basic email automation (e.g., welcome series)",
+      "Access to library of stock images",
+      "Basic email analytics (opens, clicks)",
+      "Web push notifications",
+      "E-commerce / Sales tracking",
+      "Customer support via email and live chat"
+    ],
+    "freePlanLimitations": [
+      "Subscriber limit capped at 500",
+      "Monthly email sending limit of 3,000",
+      "Limited to 1 list profile",
+      "AWeber branding on emails, landing pages, and sign-up forms",
+      "Advanced automation features not included",
+      "No A/B split testing for emails or forms",
+      "Advanced reporting and analytics limited",
+      "Removal of AWeber branding requires a paid plan",
+      "Some integrations may be restricted to paid plans",
+      "No phone support (email and chat available)"
+    ],
+    "idealUseCase": "Good for individuals, bloggers, and small businesses starting an email list (up to 500 subscribers) needing reliable newsletter sending, simple automations, basic landing pages, and good customer support."
+  },
+  {
+    "id": "ghost",
+    "name": "Ghost",
+    "description": "Ghost is an open-source publishing platform for bloggers, writers, and journalists, focusing on a clean writing experience, modern tools, and membership/subscription features. The software is free to self-host.",
+    "category": "Marketing",
+    "affiliate": true,
+    "tags": [
+      "blog",
+      "publishing",
+      "cms",
+      "membership",
+      "newsletter",
+      "open-source",
+      "self-hosted"
+    ],
+    "url": "https://ghost.org",
+    "affiliateUrl": "https://ghost.org/referral",
+    "freePlanFeatures": [
+      "Full access to Ghost software (open-source)",
+      "Modern, minimalist editor",
+      "Built-in SEO features (metadata, sitemaps, canonicals)",
+      "Native membership and subscription tools (free/paid content)",
+      "Email newsletter delivery from the platform",
+      "Theme marketplace (free/paid options), customizable themes",
+      "Integration capabilities (APIs, Zapier)",
+      "Full control over data and website",
+      "No software-imposed limits on members, staff, or content (depends on hosting)",
+      "Ability to use custom domains"
+    ],
+    "freePlanLimitations": [
+      "Requires self-hosting (user pays for and manages server/hosting environment)",
+      "Technical overhead: user responsible for setup, maintenance, updates, security",
+      "No direct support from Ghost Foundation for self-hosters (community forums available)",
+      "Potential costs for reliable transactional email delivery (e.g., via Mailgun)",
+      "Can be more complex to set up initially than managed platforms"
+    ],
+    "idealUseCase": "Best for tech-savvy bloggers, writers, and publishers wanting full platform control, data ownership, and robust membership/subscription features without platform revenue sharing (beyond payment processor fees), and who are comfortable managing their own hosting."
+  },
+  {
+    "id": "wordpress",
+    "name": "WordPress.com",
+    "description": "A hosted website and blogging platform powered by WordPress, offering both free and paid plans with varying features.",
+    "category": "Marketing",
+    "affiliate": true,
+    "tags": ["blog", "website", "cms", "hosting"],
+    "url": "https://wordpress.com",
+    "affiliateUrl": "https://wordpress.com/referral",
+    "freePlanFeatures": [
+      "Free subdomain (yoursite.wordpress.com)",
+      "3GB storage space",
+      "Hundreds of free themes",
+      "Basic customization options",
+      "WordPress.com community support",
+      "Built-in stats and analytics",
+      "Social media integration",
+      "Mobile-responsive themes",
+      "SSL certificate included",
+      "Spam protection"
+    ],
+    "freePlanLimitations": [
+      "WordPress.com subdomain only (no custom domain)",
+      "WordPress.com branding and ads displayed",
+      "Limited to 3GB storage",
+      "No plugin installation",
+      "Limited theme customization options",
+      "No monetization allowed (no ads or affiliate links)",
+      "Basic support only",
+      "No access to site files or database",
+      "Limited SEO tools"
+    ],
+    "idealUseCase": "Great for beginners who want to start blogging quickly without technical setup. Perfect for personal blogs, portfolios, or testing content ideas before investing in a paid solution."
+  },
+  {
+    "id": "medium",
+    "name": "Medium",
+    "description": "Medium is an online publishing platform with a large built-in audience, allowing writers to publish articles (stories) and potentially reach millions of readers. Offers a Partner Program for monetization.",
+    "category": "Marketing",
+    "affiliate": false,
+    "tags": ["blog", "publishing", "writing", "community", "monetization"],
+    "url": "https://medium.com",
+    "freePlanFeatures": [
+      "Free to publish articles and create a profile",
+      "Access to Medium's large existing reader base and distribution",
+      "Simple and clean editor for writing and formatting",
+      "Ability to import content from other websites",
+      "Basic analytics for stories (views, reads, fans, claps)",
+      "Option to create Publications to group content",
+      "Interaction with readers via comments and claps",
+      "Potential to earn via Medium Partner Program (MPP) by paywalling content (eligibility criteria apply)"
+    ],
+    "freePlanLimitations": [
+      "Limited control over website design and branding",
+      "Content hosted on Medium's platform (though you retain ownership)",
+      "Analytics less comprehensive than self-hosted or dedicated platforms",
+      "MPP monetization means content behind Medium paywall, limiting reach to non-members; revenue depends on Medium algorithms & member engagement",
+      "No direct email list building features (can link to external forms)",
+      "Platform changes (algorithms, MPP terms) can impact visibility/earnings",
+      "Building on \"rented land\"",
+      "Custom domain setup typically not a straightforward free feature (often requires paid Medium membership or specific publication setups)"
+    ],
+    "idealUseCase": "Good for writers wanting to tap into an existing large audience, gain exposure, and potentially earn via MPP without managing their own site. Suitable for articles, essays, and thought leadership, prioritizing reach over full platform control."
+  },
+
+  {
+    "id": "gumroad",
+    "name": "Gumroad",
+    "description": "Gumroad is an e-commerce platform for creators to sell digital products (ebooks, music, software, courses), physical goods, and subscriptions directly to their audience. Known for simplicity.",
+    "category": "Marketing",
+    "affiliate": false,
+    "tags": [
+      "ecommerce",
+      "digital-products",
+      "creators",
+      "subscriptions",
+      "online-store"
+    ],
+    "url": "https://gumroad.com",
+    "freePlanFeatures": [
+      "Free to set up account and list unlimited products",
+      "Sell various product types (digital, physical, subscriptions)",
+      "Customizable product pages and storefront (yourname.gumroad.com)",
+      "Embeddable Buy buttons/widgets for own website",
+      "Flexible pricing (set price, pay-what-you-want, free)",
+      "Built-in customer management and email updates",
+      "Basic sales and view analytics",
+      "Handles payment processing (Stripe/PayPal integrated)",
+      "Automatic VAT/sales tax handling for many regions",
+      "Fraud protection",
+      "Option for discount codes and tiered products",
+      "Workflows for simple automations (e.g., sending files post-purchase)"
+    ],
+    "freePlanLimitations": [
+      "Transaction Fees: Gumroad takes a percentage of each sale (starts at 10%, decreases with lifetime earnings) + standard payment processing fees (Stripe/PayPal)",
+      "Limited storefront customization vs. dedicated e-commerce platforms",
+      "Advanced e-commerce features (complex inventory, shipping) may be less robust",
+      "Not a full-fledged email marketing platform for newsletters (has basic Posts feature)",
+      "Analytics are functional but may not be as in-depth as some require",
+      "Dependency on Gumroad's platform and policies"
+    ],
+    "idealUseCase": "Excellent for individual creators wanting a simple, quick way to sell digital products, subscriptions, or basic physical goods without upfront/monthly fees, comfortable with a percentage-based transaction fee model."
+  },
+  {
+    "id": "payhip",
+    "name": "Payhip",
+    "description": "Payhip is an e-commerce platform to sell digital products (ebooks, software, courses), physical products, memberships, and coaching services directly to customers.",
+    "category": "Marketing",
+    "affiliate": true,
+    "tags": [
+      "ecommerce",
+      "digital-products",
+      "memberships",
+      "courses",
+      "online-store"
+    ],
+    "url": "https://payhip.com",
+    "affiliateUrl": "https://payhip.com/referral",
+    "freePlanFeatures": [
+      "All features included in \"Free Forever\" plan (transaction fee applies)",
+      "Sell digital products, physical products, subscriptions/memberships, coaching",
+      "Unlimited products and unlimited revenue",
+      "Customizable storefront with own branding",
+      "Embeddable Buy buttons for any website",
+      "Offer coupons, discounts, and social discount codes",
+      "Affiliate marketing system to recruit affiliates",
+      "Pay-what-you-want pricing option",
+      "PDF stamping for ebooks",
+      "Software license key generation and management",
+      "Built-in EU/UK VAT handling",
+      "Instant digital product delivery",
+      "Customer management and email updates",
+      "Basic analytics"
+    ],
+    "freePlanLimitations": [
+      "Transaction Fee: \"Free Forever\" plan has a 5% transaction fee per sale (plus standard Stripe/PayPal fees). Paid monthly plans offer lower or 0% fees.",
+      "Storefront customization, while good, may not be as extensive as some platforms (e.g., Shopify)",
+      "Built-in email marketing for newsletters is basic (focused on customer updates)",
+      "Advanced e-commerce features (complex shipping/inventory) might be more limited than specialized platforms"
+    ],
+    "idealUseCase": "Excellent for creators and small businesses wanting an all-inclusive platform to sell various product types without monthly fees, comfortable with a 5% transaction fee. Built-in affiliate system and PDF stamping are key benefits."
+  },
+  {
+    "id": "google-analytics",
+    "name": "Google Analytics",
+    "description": "A comprehensive web analytics platform that tracks and reports website traffic, user behavior, and conversion data.",
+    "category": "Analytics",
+    "affiliate": false,
+    "tags": ["analytics", "website", "tracking", "data"],
+    "url": "https://analytics.google.com",
+    "freePlanFeatures": [
+      "Unlimited websites and mobile apps",
+      "Real-time reporting and insights",
+      "Audience demographics and interests",
+      "Acquisition, behavior, and conversion reports",
+      "Goal setting and conversion tracking",
+      "Custom dimensions and metrics",
+      "Integration with Google Ads and Search Console",
+      "Mobile app for monitoring on-the-go",
+      "Data retention for up to 26 months",
+      "Basic funnel analysis and attribution modeling"
+    ],
+    "freePlanLimitations": [
+      "10 million hits per month per property limit",
+      "Limited data freshness (24-48 hour delay for some reports)",
+      "No phone support (community forum only)",
+      "Limited custom report capabilities",
+      "No unsampled reports for large datasets",
+      "Basic attribution modeling only",
+      "Limited data export options",
+      "No service level agreement (SLA)"
+    ],
+    "idealUseCase": "Essential for any website owner who wants to understand their audience, track performance, and make data-driven decisions. Perfect for bloggers, e-commerce sites, and content creators serious about growth."
+  },
+  {
+    "id": "google-search-console",
+    "name": "Google Search Console",
+    "description": "A free service by Google that helps you monitor your site's performance in Google Search results, identify issues, and submit sitemaps.",
+    "category": "Analytics",
+    "affiliate": false,
+    "tags": ["SEO", "google", "analytics", "website-performance"],
+    "url": "https://search.google.com/search-console",
+    "freePlanFeatures": [
+      "Monitor search traffic and performance (clicks, impressions, CTR, average position)",
+      "Identify keywords your site ranks for",
+      "Submit sitemaps and individual URLs for crawling",
+      "View indexing status and identify crawling issues",
+      "Receive alerts for critical site errors (e.g., manual actions, security issues)",
+      "Mobile usability reports",
+      "Core Web Vitals reports for page experience insights",
+      "Links report to see internal and external links",
+      "Disavow tool for managing potentially harmful backlinks"
+    ],
+    "freePlanLimitations": [
+      "Data retention limited to 16 months",
+      "Limited direct comparison with competitor data within the tool",
+      "Does not provide in-depth keyword research capabilities like paid SEO tools",
+      "Focuses primarily on Google Search, not other search engines",
+      "Can have a slight delay in data reporting",
+      "Interface can be complex for absolute beginners to SEO",
+      "No direct customer support (relies on help documents and community forums)"
+    ],
+    "idealUseCase": "Indispensable for any website owner, blogger, or content creator who wants to understand and improve their site's visibility in Google Search. Essential for technical SEO, content strategy, and monitoring site health."
+  },
+  {
+    "id": "google-pagespeed",
+    "name": "Google PageSpeed Insights",
+    "description": "Google PageSpeed Insights is a free tool that analyzes the content and performance of a web page, providing actionable suggestions to improve speed and user experience. It reports on both mobile and desktop using real-world and simulated data.",
+    "category": "Analytics",
+    "affiliate": false,
+    "tags": ["SEO", "performance", "web", "analytics", "optimization"],
+    "url": "https://pagespeed.web.dev",
+    "freePlanFeatures": [
+      "Unlimited, free analysis of any public web page",
+      "Performance scoring for both mobile and desktop",
+      "Field data (Core Web Vitals) from Chrome User Experience Report, if available",
+      "Lab data using Lighthouse for simulated performance metrics",
+      "Actionable recommendations for improving speed, accessibility, and best practices",
+      "Diagnostics for opportunities (e.g., image optimization, code minification, server response time)",
+      "Visual breakdown of page load (filmstrip, waterfall)",
+      "No login or account required"
+    ],
+    "freePlanLimitations": [
+      "Only analyzes publicly accessible URLs (cannot test behind logins or on localhost)",
+      "No historical tracking or dashboard for monitoring changes over time (each test is a snapshot)",
+      "No direct integration with project management or alerting tools (manual export/copy of results)",
+      "Some advanced diagnostics may require technical knowledge to interpret and implement",
+      "Does not provide direct hosting or CDN services—only recommendations"
+    ],
+    "idealUseCase": "Perfect for website owners, developers, marketers, and SEO professionals who want to quickly assess and improve the speed and user experience of their web pages, especially for optimizing Core Web Vitals and search rankings."
+  },
+  {
+    "id": "google-trends",
+    "name": "Google Trends",
+    "description": "Google Trends is a free tool that analyzes the popularity of search queries in Google Search across regions and languages. It provides real-time and historical data on trending topics, allowing users to compare the relative search interest of keywords over time and across locations.",
+    "category": "Analytics",
+    "affiliate": false,
+    "tags": ["SEO", "trends", "keywords", "analytics", "content"],
+    "url": "https://trends.google.com",
+    "freePlanFeatures": [
+      "Unlimited, free access to search trend data for any keyword or topic",
+      "Compare up to five search terms or topics at once",
+      "View interest over time, by region, and by subregion",
+      "Access to related queries and topics for keyword discovery",
+      "Real-time data for trending searches and events",
+      "Downloadable charts and data (CSV export)",
+      "No login or account required",
+      "Visualizations for rising, top, and breakout search terms",
+      "Filter by time range, country, category, and type of search (web, image, news, YouTube, shopping)"
+    ],
+    "freePlanLimitations": [
+      "Data is normalized and indexed (not absolute search volume)",
+      "No direct integration with other analytics or SEO tools (manual export required)",
+      "No historical tracking dashboard for saved queries (must re-run searches)",
+      "Limited granularity for very low-volume or niche keywords",
+      "Some advanced features (e.g., API access) are not available",
+      "No direct alerting or notification system for new trends"
+    ],
+    "idealUseCase": "Perfect for marketers, content creators, journalists, and researchers who want to identify trending topics, compare keyword popularity, and inform content or SEO strategies with real-time and historical search data."
+  },
+  {
+    "id": "answerthepublic",
+    "name": "AnswerThePublic",
+    "description": "AnswerThePublic is a keyword and content idea generator that visualizes search questions and autocomplete data from Google and Bing. It helps marketers, writers, and SEO professionals discover what people are asking about any topic, providing inspiration for blog posts, FAQs, and content strategy.",
+    "category": "Analytics",
+    "affiliate": false,
+    "tags": ["ideas", "keywords", "content", "SEO", "research"],
+    "url": "https://answerthepublic.com",
+    "freePlanFeatures": [
+      "Free searches (limited to a few per day, varies by region/account status)",
+      "Generates visualizations of questions, prepositions, comparisons, and related searches for any keyword",
+      "Data sourced from Google and Bing autocomplete",
+      "Download results as CSV or image",
+      "No account required for basic use",
+      "Useful for brainstorming content ideas, FAQs, and understanding audience intent"
+    ],
+    "freePlanLimitations": [
+      "Strict daily search limit (typically 1-3 searches per day for non-logged-in users; may increase with free account)",
+      "No historical data or trend tracking",
+      "No saved projects or folders (must export results manually)",
+      "No direct integration with other SEO or content tools",
+      "Advanced features (unlimited searches, team collaboration, alerts, etc.) require a paid plan",
+      "Data is based on autocomplete, not actual search volume"
+    ],
+    "idealUseCase": "Great for bloggers, marketers, and content creators who want quick, visual inspiration for content topics, FAQs, and keyword research, especially when starting a new project or exploring audience questions."
+  },
+  {
+    "id": "ubersuggest",
+    "name": "Ubersuggest",
+    "description": "Free SEO keyword research (limited daily searches).",
+    "category": "Analytics",
+    "affiliate": false,
+    "tags": ["SEO"],
+    "url": "https://neilpatel.com/ubersuggest"
+  },
+  {
+    "id": "hotjar",
+    "name": "Hotjar",
+    "description": "A product experience insights platform that provides website heatmaps, session recordings, surveys, and feedback widgets to help understand user behavior.",
+    "category": "Analytics",
+    "affiliate": false,
+    "tags": [
+      "analytics",
+      "heatmaps",
+      "session-recordings",
+      "user-feedback",
+      "cro"
+    ],
+    "url": "https://hotjar.com",
+    "freePlanFeatures": [
+      "Automatic data capture on page views",
+      "Up to 35 daily session recordings",
+      "Unlimited heatmaps (click, move, scroll - aggregated from captured sessions)",
+      "Surveys: 3 free surveys, up to 20 responses per survey",
+      "Feedback widgets: 3 free widgets, basic customization",
+      "Dashboard to visualize key metrics",
+      "Data storage for 365 days"
+    ],
+    "freePlanLimitations": [
+      "Limited to 35 daily sessions for recordings (may not be enough for high-traffic sites)",
+      "Maximum 1,050 sessions captured per month (35 sessions/day * 30 days)",
+      "Surveys and feedback widgets have response limits on the free plan",
+      "No user attributes or event tracking for advanced segmentation",
+      "Basic filtering options for recordings and heatmaps",
+      "No integrations with tools like Google Analytics or Slack on the free plan",
+      "Limited team members (typically 1 on free plan)",
+      "Hotjar branding on feedback widgets"
+    ],
+    "idealUseCase": "Excellent for website owners, marketers, and UX designers who want to visually understand how users interact with their site on a small scale. Useful for identifying usability issues, improving conversion rates, and gathering qualitative user feedback for low-traffic sites or specific campaign pages."
+  },
+  {
+    "id": "crazy-egg",
+    "name": "Crazy Egg",
+    "description": "Free trial for heatmaps.",
+    "category": "Analytics",
+    "affiliate": false,
+    "tags": ["analytics"],
+    "url": "https://crazyegg.com"
+  },
+  {
+    "id": "bitly",
+    "name": "Bitly",
+    "description": "Free link shortener.",
+    "category": "Marketing",
+    "affiliate": false,
+    "tags": ["links"],
+    "url": "https://bitly.com"
+  },
+  {
+    "id": "buffer",
+    "name": "Buffer",
+    "description": "A social media management platform for scheduling posts, analyzing performance, and managing multiple social accounts.",
+    "category": "Marketing",
+    "affiliate": true,
+    "tags": ["social", "scheduling", "analytics", "social-media"],
+    "url": "https://buffer.com",
+    "affiliateUrl": "https://buffer.com/referral",
+    "freePlanFeatures": [
+      "Connect up to 3 social channels",
+      "Schedule up to 10 posts per channel",
+      "Basic analytics and reporting",
+      "Buffer browser extension",
+      "Mobile apps for iOS and Android",
+      "Basic link shortening",
+      "Simple post composer with image editing",
+      "Best time to post suggestions",
+      "Landing page builder (Buffer's Start Page)"
+    ],
+    "freePlanLimitations": [
+      "Limited to 3 connected social accounts",
+      "Only 10 scheduled posts per channel",
+      "Basic analytics only (no advanced insights)",
+      "No team collaboration features",
+      "No advanced post formatting options",
+      "Limited customer support (email only)",
+      "No bulk upload or CSV import",
+      "No advanced reporting or white-label options"
+    ],
+    "idealUseCase": "Perfect for solo creators or small businesses managing a few social media accounts who want basic scheduling and analytics without complexity. Ideal for maintaining consistent posting schedules."
+  },
+  {
+    "id": "hootsuite",
+    "name": "Hootsuite",
+    "description": "A widely-used social media management platform for scheduling, monitoring, and analyzing social media activity.",
+    "category": "Marketing",
+    "affiliate": true,
+    "tags": ["social", "dashboard", "scheduling", "analytics"],
+    "url": "https://hootsuite.com",
+    "affiliateUrl": "https://hootsuite.com/referral",
+    "freePlanFeatures": [
+      "Manage 2 social accounts",
+      "Schedule up to 5 posts at a time",
+      "Basic analytics for profile performance",
+      "Access to free apps in Hootsuite directory (e.g., Canva, Google Drive)",
+      "Browser extension for easy sharing",
+      "Mobile app for iOS and Android",
+      "Basic content curation tools",
+      "Community forum support"
+    ],
+    "freePlanLimitations": [
+      "Limited to 2 social accounts",
+      "Only 5 scheduled posts allowed at any given time",
+      "No team collaboration features",
+      "Basic analytics only (no custom reports or competitive analysis)",
+      "No ad management capabilities",
+      "Limited customer support (community forum only)",
+      "No bulk scheduling or advanced automation",
+      "Hootsuite branding may be present"
+    ],
+    "idealUseCase": "Suitable for individuals or very small businesses looking to manage a couple of social media profiles and schedule a small number of posts. Good for getting started with social media management and monitoring basic performance."
+  },
+  {
+    "id": "later",
+    "name": "Later",
+    "description": "Instagram scheduling (free limited).",
+    "category": "Marketing",
+    "affiliate": true,
+    "tags": ["social"],
+    "url": "https://later.com",
+    "affiliateUrl": "https://later.com/referral"
+  },
+  {
+    "id": "planoly",
+    "name": "Planoly",
+    "description": "Social scheduler (free limited).",
+    "category": "Marketing",
+    "affiliate": true,
+    "tags": ["social"],
+    "url": "https://planoly.com",
+    "affiliateUrl": "https://planoly.com/referral"
+  },
+  {
+    "id": "crowdfire",
+    "name": "Crowdfire",
+    "description": "Social tools (free limited).",
+    "category": "Marketing",
+    "affiliate": true,
+    "tags": ["social"],
+    "url": "https://crowdfireapp.com",
+    "affiliateUrl": "https://crowdfireapp.com/referral"
+  },
+  {
+    "id": "tweetdeck",
+    "name": "TweetDeck",
+    "description": "Free Twitter management.",
+    "category": "Marketing",
+    "affiliate": false,
+    "tags": ["social"],
+    "url": "https://tweetdeck.twitter.com"
+  },
+  {
+    "id": "hunter-io",
+    "name": "Hunter.io",
+    "description": "Email lookup (free limited).",
+    "category": "Marketing",
+    "affiliate": true,
+    "tags": ["outreach"],
+    "url": "https://hunter.io",
+    "affiliateUrl": "https://hunter.io/referral"
+  },
+  {
+    "id": "quickbooks",
+    "name": "QuickBooks Self-Employed",
+    "description": "Expense tracking (free trial).",
+    "category": "Productivity",
+    "affiliate": true,
+    "tags": ["accounting"],
+    "url": "https://quickbooks.intuit.com/self-employed",
+    "affiliateUrl": "https://quickbooks.intuit.com/self-employed/referral"
+  },
+  {
+    "id": "wave-accounting",
+    "name": "Wave Accounting",
+    "description": "A free, web-based accounting software designed for small businesses and freelancers, offering invoicing, expense tracking, and financial reporting.",
+    "category": "Productivity",
+    "affiliate": false,
+    "tags": [
+      "accounting",
+      "invoicing",
+      "finance",
+      "small-business",
+      "freelance"
+    ],
+    "url": "https://waveapps.com",
+    "freePlanFeatures": [
+      "Unlimited customizable invoicing",
+      "Unlimited bank and credit card connections",
+      "Unlimited income and expense tracking",
+      "Sales tax tracking and reporting",
+      "Receipt scanning (via mobile app)",
+      "Unlimited users and collaborators",
+      "Run multiple businesses under one account",
+      "Standard financial reports (Profit & Loss, Balance Sheet, Cash Flow, etc.)",
+      "No transaction or invoice limits"
+    ],
+    "freePlanLimitations": [
+      "Payroll services are a paid add-on",
+      "Payment processing for invoices has transaction fees (comparable to Stripe/PayPal)",
+      "Wave Advisors (professional bookkeeping/accounting help) is a paid service",
+      "No dedicated phone support for free users (support via email, chatbot, and community forum)",
+      "Does not offer project accounting features",
+      "Inventory management features are very basic or non-existent",
+      "Limited integrations compared to some paid accounting software",
+      "Mobile app has fewer features than the web version"
+    ],
+    "idealUseCase": "Excellent for freelancers, consultants, and small service-based businesses needing robust, free accounting tools for invoicing, expense tracking, and financial reporting. Its unlimited core features make it a top choice for those on a tight budget."
+  },
+  {
+    "id": "leadpages",
+    "name": "Leadpages",
+    "description": "Landing pages (free trial).",
+    "category": "Marketing",
+    "affiliate": true,
+    "tags": ["landing"],
+    "url": "https://leadpages.com",
+    "affiliateUrl": "https://leadpages.com/referral"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "description": "A conversational AI model capable of generating text, answering questions, writing code, and more.",
+    "category": "AI",
+    "affiliate": false,
+    "tags": ["ai", "writing", "coding", "assistant"],
+    "url": "https://chat.openai.com",
+    "freePlanFeatures": [
+      "Access to GPT-3.5 model",
+      "Basic conversational AI capabilities",
+      "Unlimited conversations (subject to usage limits)",
+      "No time-based restrictions on GPT-3.5",
+      "Available via web interface",
+      "Limited access to GPT-4o with heavy usage caps"
+    ],
+    "freePlanLimitations": [
+      "Uses less advanced GPT-3.5 model primarily",
+      "GPT-4o access is limited and capped",
+      "Slower response times compared to Plus",
+      "No priority access during peak times",
+      "Limited to standard response complexity",
+      "No image generation or advanced data analysis",
+      "No custom GPT creation",
+      "Deep Research tasks heavily limited"
+    ],
+    "idealUseCase": "Useful for brainstorming ideas, drafting initial content, summarizing text, getting coding help for simple scripts, or overcoming writer's block."
+  },
+  {
+    "id": "claude",
+    "name": "Claude AI",
+    "description": "A conversational AI assistant focused on helpful, harmless, and honest interactions.",
+    "category": "AI",
+    "affiliate": false,
+    "tags": ["ai", "writing", "assistant", "ethics"],
+    "url": "https://claude.ai",
+    "freePlanFeatures": [
+      "Access to capable Claude model",
+      "General conversation and text summarization",
+      "Question answering and coding assistance",
+      "Web and mobile app access"
+    ],
+    "freePlanLimitations": [
+      "Variable daily message limits based on demand",
+      "Context window may be smaller than paid plans",
+      "No priority access during high traffic",
+      "No model selection",
+      "No API access",
+      "Community forum support only",
+      "Personal use only (terms may restrict commercial applications)"
+    ],
+    "idealUseCase": "Useful for drafting creative text, brainstorming, summarizing documents, and getting feedback on writing. Its focus on constitutional AI appeals to creators concerned with AI ethics."
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity AI",
+    "description": "An AI search engine and conversational AI that provides answers with source citations.",
+    "category": "AI",
+    "affiliate": false,
+    "tags": ["ai", "search", "research", "citations"],
+    "url": "https://perplexity.ai",
+    "freePlanFeatures": [
+      "Basic search functionality",
+      "Access to fundamental AI models",
+      "Ability to ask follow-up questions",
+      "Basic source citations"
+    ],
+    "freePlanLimitations": [
+      "Daily query cap (typically around 5-10 Pro searches)",
+      "Shorter response lengths",
+      "Limited access to advanced AI models",
+      "Basic source referencing",
+      "No priority processing",
+      "No file upload for analysis"
+    ],
+    "idealUseCase": "Good for quick fact-checking, initial research on topics with cited sources, and exploring complex subjects with follow-up questions."
+  },
+  {
+    "id": "google-forms",
+    "name": "Google Forms",
+    "description": "A free and simple tool for creating surveys, quizzes, and forms, part of Google Workspace.",
+    "category": "Forms",
+    "affiliate": false,
+    "tags": ["forms", "surveys", "data-collection", "free"],
+    "url": "https://forms.google.com",
+    "freePlanFeatures": [
+      "Unlimited forms and questions",
+      "Unlimited responses by default",
+      "11 basic question types",
+      "17 pre-designed templates",
+      "Basic skip logic for dropdown/multiple choice",
+      "Real-time response collection and basic chart reports",
+      "Integration with Google Sheets for response data"
+    ],
+    "freePlanLimitations": [
+      "Basic design customization options",
+      "File upload limits (2MB for images, 500KB for text)",
+      "No direct payment gateway integrations",
+      "Conditional logic is basic",
+      "Lacks robust data analytics tools within Forms itself"
+    ],
+    "idealUseCase": "Excellent for creating simple surveys, contact forms, event registrations, quizzes, or collecting basic feedback quickly and at no cost."
+  },
+  {
+    "id": "tally",
+    "name": "Tally.so",
+    "description": "A form builder that aims to offer most of its features for free, with a Notion-like interface.",
+    "category": "Forms",
+    "affiliate": false,
+    "tags": ["forms", "surveys", "unlimited", "advanced"],
+    "url": "https://tally.so",
+    "freePlanFeatures": [
+      "99% of features available for free",
+      "Unlimited forms and submissions",
+      "Unlimited questions",
+      "Various input blocks (text, email, dropdown, file upload, payment, signature)",
+      "Conditional logic and hidden fields",
+      "Calculations and answer piping",
+      "Basic integrations"
+    ],
+    "freePlanLimitations": [
+      "Displays Tally branding on forms",
+      "No custom domains",
+      "Cannot remove Tally branding",
+      "No partial submissions",
+      "No team collaboration",
+      "No control over data retention",
+      "No email verification"
+    ],
+    "idealUseCase": "A very generous free option for creating sophisticated forms without restrictive limits. Excellent for surveys, applications, feedback forms, and simple order forms."
+  },
+  {
+    "id": "carrd",
+    "name": "Carrd",
+    "description": "A platform for building simple, responsive, one-page websites.",
+    "category": "Website",
+    "affiliate": false,
+    "tags": ["website", "one-page", "simple", "landing"],
+    "url": "https://carrd.co",
+    "freePlanFeatures": [
+      "Build up to 3 one-page sites",
+      "Access to core building elements",
+      "Responsive design"
+    ],
+    "freePlanLimitations": [
+      "Sites published on carrd.co subdomain only",
+      "Made with Carrd branding displayed",
+      "No access to premium features like forms",
+      "No embedding third-party widgets",
+      "No Google Analytics integration",
+      "No custom code embeds",
+      "No premium templates",
+      "Limited file upload sizes"
+    ],
+    "idealUseCase": "Excellent for creating simple personal profile pages, link-in-bio pages, or very basic landing pages for a project quickly and easily."
+  }
+]

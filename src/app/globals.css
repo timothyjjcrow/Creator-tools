@@ -19,8 +19,139 @@
   }
 }
 
+html {
+  font-size: 18px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+a {
+  color: #2563eb;
+  text-underline-offset: 2px;
+  transition: color 0.2s;
+}
+a:hover,
+a:focus {
+  color: #1d4ed8;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--foreground);
+}
+
+::selection {
+  background: #a5b4fc;
+  color: #111827;
+}
+
+/* FORCE ALL TEXT TO BE READABLE - NUCLEAR OPTION */
+* {
+  color: inherit !important;
+}
+
+/* Override ALL light text with dark colors */
+p,
+div,
+span,
+li,
+td,
+th,
+label,
+input,
+textarea,
+select {
+  color: #111827 !important;
+}
+
+/* Ensure headings are dark */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000 !important;
+}
+
+/* Keep only specific colors that should remain */
+.text-blue-600,
+.text-blue-700 {
+  color: #2563eb !important;
+}
+
+.text-green-600,
+.text-green-700 {
+  color: #059669 !important;
+}
+
+.text-purple-600,
+.text-purple-700 {
+  color: #7c3aed !important;
+}
+
+.text-red-600,
+.text-red-700 {
+  color: #dc2626 !important;
+}
+
+.text-yellow-600,
+.text-yellow-700 {
+  color: #d97706 !important;
+}
+
+.text-indigo-600,
+.text-indigo-700 {
+  color: #4f46e5 !important;
+}
+
+.text-teal-600,
+.text-teal-700 {
+  color: #0d9488 !important;
+}
+
+.text-orange-600,
+.text-orange-700 {
+  color: #ea580c !important;
+}
+
+/* Keep white text on dark backgrounds */
+.text-white,
+.bg-blue-600 *,
+.bg-gray-800 *,
+.bg-gray-900 *,
+footer * {
+  color: #ffffff !important;
+}
+
+/* Light text on dark backgrounds */
+.text-blue-100 {
+  color: #dbeafe !important;
+}
+
+.text-gray-300 {
+  color: #d1d5db !important;
+}
+
+.text-gray-400 {
+  color: #9ca3af !important;
 }
