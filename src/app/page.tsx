@@ -378,8 +378,8 @@ export default function Home() {
               Why Indie Creator Hub?
             </h2>
             <p className="text-lg text-gray-900">
-              Discover the benefits of using our curated tools and why we're
-              passionate about helping indie creators.
+              Discover the benefits of using our curated tools and why
+              we&apos;re passionate about helping indie creators.
             </p>
           </div>
 

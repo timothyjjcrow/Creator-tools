@@ -62,7 +62,7 @@ export default function Layout({ children }: LayoutProps) {
                         href="/tools/checklist"
                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                       >
-                        Creator's Checklist
+                        Creator&apos;s Checklist
                       </Link>
                       <Link
                         href="/tools/word-counter"
@@ -123,7 +123,7 @@ export default function Layout({ children }: LayoutProps) {
                 href="/tools/checklist"
                 className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
               >
-                Creator's Checklist
+                Creator&apos;s Checklist
               </Link>
               <Link
                 href="/tools/word-counter"

@@ -215,7 +215,7 @@ export default function YouTubeDownloadResourcesPage() {
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Discover the best tools and methods for downloading YouTube videos
           responsibly. Find the right solution for your needs while respecting
-          creators' rights.
+          creators&apos; rights.
         </p>
       </div>
 
@@ -228,8 +228,8 @@ export default function YouTubeDownloadResourcesPage() {
           </h2>
         </div>
         <p className="text-amber-700 mb-4">
-          Always respect copyright laws and YouTube's Terms of Service. Only
-          download content you have permission to use.
+          Always respect copyright laws and YouTube&apos;s Terms of Service.
+          Only download content you have permission to use.
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {legalGuidelines.map((guideline, index) => (

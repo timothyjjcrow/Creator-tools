@@ -31,7 +31,7 @@ export default function ToolsPage() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-          The Ultimate Creator's Toolbox
+          The Ultimate Creator&apos;s Toolbox
         </h1>
         <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
           Discover 100+ free and freemium tools to help you create, market, and

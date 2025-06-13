@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 
 interface ChecklistItem {
@@ -251,26 +251,20 @@ const projectTemplates: Record<string, ProjectTemplate> = {
           {
             name: "TubeBuddy",
             url: "https://www.tubebuddy.com",
-            description: "YouTube optimization tools",
-            free: false,
-          },
-          {
-            name: "VidIQ",
-            url: "https://vidiq.com",
-            description: "YouTube keyword research and analytics",
+            description: "Browser extension for YouTube optimization",
             free: true,
           },
         ],
         resources: [
           {
-            title: "YouTube Analytics Guide",
-            url: "https://support.google.com/youtube/answer/1714323",
+            title: "How to Conduct a YouTube Channel Audit",
+            url: "https://backlinko.com/youtube-channel-audit",
             type: "guide",
           },
           {
-            title: "YouTube Channel Audit Guide & Checklist",
-            url: "https://www.webfx.com/blog/social-media/youtube-audit/",
-            type: "guide",
+            title: "YouTube Channel Audit Template",
+            url: "https://docs.google.com/document/d/1vB-2zi_nQE3-jGud2yv_2v4yW3z5B5B3/edit",
+            type: "template",
           },
         ],
       },
@@ -278,61 +272,44 @@ const projectTemplates: Record<string, ProjectTemplate> = {
         id: "keyword-research",
         text: "Perform Keyword Research",
         description:
-          "Research high-opportunity keywords and optimize your content for YouTube search and discovery",
-        timeEstimate: "2-4 hours",
+          "Find relevant keywords to target in your titles, descriptions, and tags",
+        timeEstimate: "2-3 hours",
         difficulty: "medium",
         tools: [
           {
             name: "VidIQ",
             url: "https://vidiq.com",
-            description: "YouTube keyword research and analytics",
+            description: "YouTube keyword research tool",
             free: true,
           },
           {
-            name: "TubeBuddy",
-            url: "https://www.tubebuddy.com",
-            description: "YouTube optimization toolkit",
+            name: "Google Keyword Planner",
+            url: "https://ads.google.com/home/tools/keyword-planner/",
+            description: "General keyword research tool",
             free: true,
           },
         ],
         resources: [
           {
-            title: "Best YouTube Keyword Research Tools",
-            url: "https://www.semrush.com/blog/youtube-keyword-tools/",
+            title: "Complete Guide to YouTube Keyword Research",
+            url: "https://ahrefs.com/blog/youtube-keyword-research/",
             type: "guide",
           },
         ],
         dependencies: ["channel-audit"],
       },
       {
-        id: "video-optimization",
-        text: "Optimize and Publish Video",
+        id: "content-strategy",
+        text: "Develop a Content Strategy",
         description:
-          "Apply SEO best practices to your video title, description, tags, and thumbnail before publishing",
-        timeEstimate: "1-2 hours",
-        difficulty: "medium",
-        tools: [],
-        resources: [
-          {
-            title: "YouTube SEO: The Complete Guide",
-            url: "https://backlinko.com/how-to-rank-youtube-videos",
-            type: "guide",
-          },
-        ],
-        dependencies: ["keyword-research"],
-      },
-      {
-        id: "content-calendar-setup",
-        text: "Set Up a Content Calendar",
-        description:
-          "Plan 30 days of content that balances evergreen topics, trending subjects, and audience requests",
-        timeEstimate: "2-3 hours",
+          "Plan your content pillars, formats, and publishing schedule based on your audit and keyword research",
+        timeEstimate: "4-6 hours",
         difficulty: "medium",
         tools: [
           {
             name: "Notion",
-            url: "https://www.notion.so",
-            description: "All-in-one planning workspace",
+            url: "https://notion.so",
+            description: "All-in-one workspace for planning",
             free: true,
           },
           {
@@ -341,589 +318,224 @@ const projectTemplates: Record<string, ProjectTemplate> = {
             description: "Visual project management",
             free: true,
           },
-          {
-            name: "Google Calendar",
-            url: "https://calendar.google.com",
-            description: "Schedule publishing dates",
-            free: true,
-          },
         ],
         resources: [
           {
-            title: "Content Calendar Template Gallery",
-            url: "https://www.notion.so/templates/category/content-calendar",
-            type: "template",
-          },
-          {
-            title: "Content Pillar Strategy",
-            url: "https://blog.hubspot.com/marketing/content-pillars-for-social-media",
+            title: "How to Create a YouTube Content Strategy",
+            url: "https://blog.hootsuite.com/youtube-content-strategy/",
             type: "guide",
           },
         ],
         dependencies: ["keyword-research"],
       },
       {
-        id: "thumbnail-system",
-        text: "Design consistent thumbnail system",
+        id: "thumbnail-design",
+        text: "Design High-CTR Thumbnails",
         description:
-          "Create a branded thumbnail template and style guide for consistent, click-worthy visuals",
-        timeEstimate: "3-5 hours",
+          "Create compelling, high-contrast thumbnails that entice viewers to click",
+        timeEstimate: "1-2 hours per video",
         difficulty: "medium",
         tools: [
           {
-            name: "Canva Pro",
-            url: "https://www.canva.com/pro",
-            description: "Advanced design features",
-            free: false,
+            name: "Canva",
+            url: "https://www.canva.com",
+            description: "Easy-to-use design tool",
+            free: true,
           },
           {
-            name: "Photoshop",
+            name: "Adobe Photoshop",
             url: "https://www.adobe.com/products/photoshop.html",
-            description: "Professional image editing",
-            free: false,
-          },
-          {
-            name: "Thumbnail Test",
-            url: "https://thumbnailtest.com",
-            description: "A/B test your thumbnails",
+            description: "Professional design software",
             free: false,
           },
         ],
         resources: [
           {
-            title: "Thumbnail Psychology Guide",
-            url: "https://vidiq.com/blog/post/youtube-custom-thumbnails-ctr/",
+            title: "The Science of High-CTR YouTube Thumbnails",
+            url: "https://www.socialmediaexaminer.com/how-to-create-youtube-thumbnails-that-drive-views/",
             type: "guide",
-          },
-          {
-            title: "Thumbnail Templates Pack",
-            url: "https://www.canva.com/templates/youtube-thumbnails/",
-            type: "template",
           },
         ],
       },
       {
-        id: "engagement-strategy",
-        text: "Implement community engagement strategy",
+        id: "seo-optimization",
+        text: "Optimize Video SEO",
         description:
-          "Develop systems for responding to comments, building community, and increasing viewer retention",
-        timeEstimate: "2-3 hours setup + ongoing",
-        difficulty: "easy",
+          "Craft keyword-rich titles, descriptions, and tags to improve discoverability",
+        timeEstimate: "30-60 minutes per video",
+        difficulty: "medium",
         tools: [
           {
-            name: "YouTube Studio",
-            url: "https://studio.youtube.com",
-            description: "Manage comments and community",
-            free: true,
-          },
-          {
-            name: "Discord",
-            url: "https://discord.com",
-            description: "Build community outside YouTube",
+            name: "TubeBuddy",
+            url: "https://www.tubebuddy.com",
+            description: "SEO optimization toolkit",
             free: true,
           },
         ],
         resources: [
           {
-            title: "Community Building Guide",
-            url: "https://education.hootsuite.com/pages/growing-your-audience",
+            title: "YouTube SEO: The Complete Guide",
+            url: "https://backlinko.com/youtube-seo",
             type: "guide",
           },
-          {
-            title: "Comment Response Templates",
-            url: "https://vidiq.com/blog/post/responding-youtube-comments/",
-            type: "template",
-          },
         ],
-        dependencies: ["content-calendar-setup"],
+        dependencies: ["keyword-research"],
       },
     ],
   },
-  "newsletter-launch": {
-    name: "Newsletter Launch & Growth",
-    description:
-      "A complete roadmap to launch a successful newsletter and build a loyal subscriber base with valuable content.",
-    duration: "2-4 weeks",
-    difficulty: "beginner",
-    category: "Email Marketing",
-    roi: "Direct audience connection",
-    tasks: [
-      {
-        id: "newsletter-strategy",
-        text: "Define newsletter strategy and positioning",
-        description:
-          "Clearly define your newsletter's unique value proposition, target audience, and content themes",
-        timeEstimate: "2-3 hours",
-        difficulty: "easy",
-        tools: [
-          {
-            name: "Notion",
-            url: "https://www.notion.so",
-            description: "Document your strategy",
-            free: true,
-          },
-        ],
-        resources: [
-          {
-            title: "Newsletter Strategy Template",
-            url: "https://www.notion.com/templates/newsletter",
-            type: "template",
-          },
-          {
-            title: "Value Proposition Canvas",
-            url: "https://www.strategyzer.com/canvas/value-proposition-canvas",
-            type: "template",
-          },
-        ],
-      },
-      {
-        id: "platform-setup",
-        text: "Choose and set up email platform",
-        description:
-          "Select the right email service provider and configure your account with proper branding and settings",
-        timeEstimate: "1-2 hours",
-        difficulty: "easy",
-        tools: [
-          {
-            name: "Substack",
-            url: "https://substack.com",
-            description: "Simple, popular platform for writers",
-            free: true,
-          },
-          {
-            name: "beehiiv",
-            url: "https://www.beehiiv.com",
-            description: "Creator-focused with monetization tools",
-            free: true,
-          },
-          {
-            name: "MailerLite",
-            url: "https://www.mailerlite.com",
-            description: "Easy to use with a good free plan",
-            free: true,
-          },
-        ],
-        resources: [
-          {
-            title: "The 8 Best Email Newsletter Platforms (2025)",
-            url: "https://zapier.com/blog/best-email-newsletter-software/",
-            type: "guide",
-          },
-        ],
-        dependencies: ["newsletter-strategy"],
-      },
-      {
-        id: "lead-magnet-creation",
-        text: "Create a compelling lead magnet",
-        description:
-          "Design and create a valuable free resource that encourages email signups",
-        timeEstimate: "4-8 hours",
-        difficulty: "medium",
-        tools: [
-          {
-            name: "Canva",
-            url: "https://www.canva.com",
-            description: "Design lead magnets",
-            free: true,
-          },
-          {
-            name: "Gumroad",
-            url: "https://gumroad.com",
-            description: "Distribute digital products",
-            free: true,
-          },
-        ],
-        resources: [
-          {
-            title: "20 Effective Lead Magnet Ideas for Creators",
-            url: "https://www.theleap.co/blog/lead-magnet-ideas/",
-            type: "guide",
-          },
-          {
-            title: "10 High-Quality Lead Magnet Templates",
-            url: "https://www.emailaudience.com/lead-magnet-templates/",
-            type: "template",
-          },
-        ],
-        dependencies: ["platform-setup"],
-      },
-      {
-        id: "landing-page-creation",
-        text: "Create a high-converting landing page",
-        description:
-          "Create a dedicated signup page that clearly communicates your newsletter's value",
-        timeEstimate: "3-5 hours",
-        difficulty: "medium",
-        tools: [
-          {
-            name: "Carrd",
-            url: "https://carrd.co",
-            description: "Simple landing page builder",
-            free: true,
-          },
-          {
-            name: "ConvertKit Landing Pages",
-            url: "https://convertkit.com/features/landing-pages",
-            description: "Built-in landing pages",
-            free: true,
-          },
-        ],
-        resources: [
-          {
-            title: "7 Best Landing Page Builders (2025)",
-            url: "https://www.mailerlite.com/blog/best-landing-page-builders",
-            type: "guide",
-          },
-          {
-            title: "8-Step Landing Page Copywriting Guide",
-            url: "https://getwpfunnels.com/landing-page-copy/",
-            type: "guide",
-          },
-        ],
-        dependencies: ["lead-magnet-creation"],
-      },
-      {
-        id: "email-sequence-setup",
-        text: "Set up an automated welcome sequence",
-        description:
-          "Create a series of emails to welcome new subscribers and nurture them with your best content.",
-        timeEstimate: "2-3 hours",
-        difficulty: "medium",
-        tools: [],
-        resources: [
-          {
-            title: "How to Create a Successful Welcome Email Series",
-            url: "https://www.engagebay.com/blog/welcome-email-series/",
-            type: "guide",
-          },
-        ],
-        dependencies: ["landing-page-creation"],
-      },
-      {
-        id: "content-planning",
-        text: "Plan first month of content",
-        description:
-          "Create a content calendar and write your first 4-6 newsletter issues to establish consistency",
-        timeEstimate: "6-10 hours",
-        difficulty: "medium",
-        tools: [
-          {
-            name: "Notion",
-            url: "https://www.notion.so",
-            description: "Content planning and writing",
-            free: true,
-          },
-          {
-            name: "Grammarly",
-            url: "https://grammarly.com",
-            description: "Writing assistance",
-            free: true,
-          },
-        ],
-        resources: [
-          {
-            title: "Newsletter Content Ideas",
-            url: "https://www.campaignmonitor.com/blog/email-marketing/must-have-newsletter-ideas/",
-            type: "guide",
-          },
-          {
-            title: "Downloadable Content Calendar Templates",
-            url: "https://www.smartsheet.com/content/content-calendar-template-examples",
-            type: "template",
-          },
-        ],
-        dependencies: ["email-sequence-setup"],
-      },
-      {
-        id: "growth-tactics",
-        text: "Implement growth and promotion strategies",
-        description:
-          "Set up systems for growing your subscriber base through cross-promotion, social media, and partnerships",
-        timeEstimate: "3-4 hours",
-        difficulty: "medium",
-        tools: [
-          {
-            name: "SparkLoop",
-            url: "https://sparkloop.app",
-            description: "Newsletter cross-promotion",
-            free: false,
-          },
-        ],
-        resources: [
-          {
-            title: "Newsletter Growth Tactics Guide",
-            url: "https://www.getflack.com/p/growyournewsletter",
-            type: "guide",
-          },
-          {
-            title: "Beginner's Guide to Beehiiv Recommendations",
-            url: "https://academy.beehiiv.com/p/recommendations",
-            type: "guide",
-          },
-        ],
-        dependencies: ["content-planning"],
-      },
-    ],
-  },
-  "course-creation": {
-    name: "Online Course Creation & Launch",
-    description:
-      "Create, market, and launch a profitable online course from start to finish",
-    duration: "6-12 weeks",
+  "saas-launch": {
+    name: "SaaS Product Launch",
+    description: "A comprehensive checklist for launching a new SaaS product",
+    duration: "4-6 weeks",
     difficulty: "advanced",
-    category: "Product Creation",
-    roi: "High-value product income",
+    category: "Business & Marketing",
+    roi: "Direct sales & leads",
     tasks: [
       {
-        id: "market-validation",
-        text: "Validate course idea and market demand",
+        id: "market-research",
+        text: "Conduct Market Research",
         description:
-          "Research your target audience, analyze competitors, and validate demand before investing time in creation",
-        timeEstimate: "8-12 hours",
+          "Identify your target audience, analyze competitors, and define your unique value proposition.",
+        timeEstimate: "1-2 weeks",
+        difficulty: "hard",
+        tools: [
+          {
+            name: "SurveyMonkey",
+            url: "https://www.surveymonkey.com",
+            description: "Create and send surveys",
+            free: true,
+          },
+          {
+            name: "G2",
+            url: "https://www.g2.com",
+            description: "Software reviews and competitor analysis",
+            free: true,
+          },
+        ],
+        resources: [
+          {
+            title: "How to Conduct Market Research for a New Product",
+            url: "https://www.shopify.com/blog/market-research",
+            type: "guide",
+          },
+        ],
+      },
+      {
+        id: "build-landing-page",
+        text: "Build a High-Converting Landing Page",
+        description:
+          "Design a landing page that clearly communicates your value proposition and encourages sign-ups.",
+        timeEstimate: "3-5 days",
         difficulty: "medium",
         tools: [
           {
-            name: "Google Forms",
-            url: "https://forms.google.com",
-            description: "Create validation surveys",
+            name: "Webflow",
+            url: "https://webflow.com",
+            description: "Build responsive websites without code",
             free: true,
           },
           {
-            name: "Typeform",
-            url: "https://typeform.com",
-            description: "Advanced survey builder",
-            free: true,
-          },
-          {
-            name: "SimilarWeb",
-            url: "https://similarweb.com",
-            description: "Competitor analysis",
-            free: true,
+            name: "Unbounce",
+            url: "https://unbounce.com",
+            description: "Landing page builder and platform",
+            free: false,
           },
         ],
         resources: [
           {
-            title: "Course Validation Guide",
-            url: "https://www.thinkific.com/blog/validate-online-course-concept/",
+            title: "The Ultimate Guide to Landing Page Optimization",
+            url: "https://unbounce.com/landing-page-articles/the-ultimate-guide-to-landing-page-optimization/",
             type: "guide",
           },
-          {
-            title: "Market Research Template",
-            url: "https://blog.hubspot.com/marketing/buyer-persona-research",
-            type: "template",
-          },
         ],
+        dependencies: ["market-research"],
       },
       {
-        id: "curriculum-design",
-        text: "Design comprehensive course curriculum",
+        id: "setup-analytics",
+        text: "Set Up Analytics and Tracking",
         description:
-          "Structure your course content into logical modules with clear learning outcomes and progression",
-        timeEstimate: "10-15 hours",
-        difficulty: "hard",
+          "Install analytics tools to track website traffic, user behavior, and conversions.",
+        timeEstimate: "1 day",
+        difficulty: "easy",
         tools: [
           {
-            name: "Notion",
-            url: "https://www.notion.so",
-            description: "Organize course structure",
+            name: "Google Analytics",
+            url: "https://analytics.google.com",
+            description: "Web analytics service",
             free: true,
           },
           {
-            name: "Mindmeister",
-            url: "https://mindmeister.com",
-            description: "Mind mapping for course flow",
-            free: true,
-          },
-        ],
-        resources: [
-          {
-            title: "Course Design Framework",
-            url: "https://teachable.com/blog/how-to-create-an-online-course",
-            type: "guide",
-          },
-          {
-            title: "Curriculum Template",
-            url: "https://www.notion.com/templates/course-planner-schedule-and-learning-progress",
-            type: "template",
-          },
-        ],
-        dependencies: ["market-validation"],
-      },
-      {
-        id: "content-production",
-        text: "Create all course content and materials",
-        description:
-          "Record videos, write materials, create worksheets, and develop supplementary resources",
-        timeEstimate: "40-80 hours",
-        difficulty: "hard",
-        tools: [
-          {
-            name: "Loom",
-            url: "https://loom.com",
-            description: "Screen recording for tutorials",
-            free: true,
-          },
-          {
-            name: "OBS Studio",
-            url: "https://obsproject.com",
-            description: "Advanced recording software",
-            free: true,
-          },
-          {
-            name: "Canva",
-            url: "https://www.canva.com",
-            description: "Create course materials",
-            free: true,
-          },
-          {
-            name: "Notion",
-            url: "https://www.notion.so",
-            description: "Write course content",
+            name: "Hotjar",
+            url: "https://www.hotjar.com",
+            description: "Behavior analytics and feedback data",
             free: true,
           },
         ],
         resources: [
           {
-            title: "Video Production Guide",
-            url: "https://www.thinkific.com/blog/create-training-videos/",
+            title: "A Beginner's Guide to Google Analytics",
+            url: "https://blog.hubspot.com/marketing/google-analytics",
             type: "guide",
           },
-          {
-            title: "Course Materials Templates",
-            url: "https://www.canva.com/templates/education/",
-            type: "template",
-          },
         ],
-        dependencies: ["curriculum-design"],
       },
       {
-        id: "platform-setup",
-        text: "Set up course platform and payment processing",
+        id: "email-marketing",
+        text: "Set Up Email Marketing & Automation",
         description:
-          "Choose and configure your course hosting platform with proper pricing and payment options",
-        timeEstimate: "4-6 hours",
+          "Create an email list and set up automated email sequences for onboarding and engagement.",
+        timeEstimate: "2-3 days",
         difficulty: "medium",
         tools: [
           {
-            name: "Thinkific",
-            url: "https://thinkific.com",
-            description: "Comprehensive course platform",
+            name: "Mailchimp",
+            url: "https://mailchimp.com",
+            description: "Email marketing platform",
             free: true,
           },
-          {
-            name: "Teachable",
-            url: "https://teachable.com",
-            description: "User-friendly course builder",
-            free: true,
-          },
-          {
-            name: "Gumroad",
-            url: "https://gumroad.com",
-            description: "Simple digital product sales",
-            free: true,
-          },
-          {
-            name: "Stripe",
-            url: "https://stripe.com",
-            description: "Payment processing",
-            free: true,
-          },
-        ],
-        resources: [
-          {
-            title: "Platform Comparison Guide",
-            url: "https://zapier.com/blog/online-course-platforms/",
-            type: "guide",
-          },
-          {
-            title: "Pricing Strategy Guide",
-            url: "https://www.thinkific.com/blog/pricing-online-courses/",
-            type: "guide",
-          },
-        ],
-        dependencies: ["content-production"],
-      },
-      {
-        id: "launch-strategy",
-        text: "Plan and execute course launch campaign",
-        description:
-          "Create a comprehensive launch strategy including pre-launch marketing, launch sequence, and post-launch follow-up",
-        timeEstimate: "15-20 hours",
-        difficulty: "hard",
-        tools: [
           {
             name: "ConvertKit",
             url: "https://convertkit.com",
-            description: "Email launch sequences",
-            free: true,
-          },
-          {
-            name: "Later",
-            url: "https://later.com",
-            description: "Social media scheduling",
-            free: true,
-          },
-          {
-            name: "Calendly",
-            url: "https://calendly.com",
-            description: "Schedule launch calls",
+            description: "Email marketing for creators",
             free: true,
           },
         ],
         resources: [
           {
-            title: "Course Launch Blueprint",
-            url: "https://teachable.com/blog/the-ultimate-guide-to-launching-your-online-course",
+            title: "The Ultimate Guide to Email Marketing",
+            url: "https://www.optinmonster.com/email-marketing-guide/",
             type: "guide",
           },
-          {
-            title: "Launch Email Templates",
-            url: "https://convertkit.com/product-launch-email",
-            type: "template",
-          },
         ],
-        dependencies: ["platform-setup"],
       },
       {
-        id: "community-building",
-        text: "Build and engage a community",
+        id: "product-hunt-launch",
+        text: "Prepare for Product Hunt Launch",
         description:
-          "Create a space for your students to connect, ask questions, and support each other.",
-        timeEstimate: "Ongoing",
-        difficulty: "medium",
+          "Create your Product Hunt listing, prepare marketing materials, and engage with the community.",
+        timeEstimate: "1 week",
+        difficulty: "hard",
         tools: [
           {
-            name: "Circle.so",
-            url: "https://circle.so",
-            description: "Modern community platform for creators",
-            free: false,
-          },
-          {
-            name: "Discord",
-            url: "https://discord.com",
-            description: "Popular chat and community platform",
-            free: true,
-          },
-          {
-            name: "Facebook Groups",
-            url: "https://www.facebook.com/groups",
-            description: "Easy-to-start community option",
+            name: "Product Hunt",
+            url: "https://www.producthunt.com",
+            description: "The place to launch your product",
             free: true,
           },
         ],
         resources: [
           {
-            title: "Community Platform Guide",
-            url: "https://www.storyprompt.com/blog/community-platforms",
+            title: "The Ultimate Guide to Launching on Product Hunt",
+            url: "https://blog.producthunt.com/how-to-launch-on-product-hunt-7c1843e06399",
             type: "guide",
           },
           {
-            title: "Community Engagement Playbook",
-            url: "https://www.educate-me.co/blog/how-to-launch-online-course",
-            type: "guide",
+            title: "Product Hunt Launch Checklist",
+            url: "https://previewhunt.com",
+            type: "tool",
           },
         ],
-        dependencies: ["launch-strategy"],
+        dependencies: ["build-landing-page"],
       },
     ],
   },
@@ -931,72 +543,93 @@ const projectTemplates: Record<string, ProjectTemplate> = {
 
 export default function ChecklistPage() {
   const [selectedProject, setSelectedProject] = useState("");
-  const [customProjectName, setCustomProjectName] = useState("");
   const [checklist, setChecklist] = useState<ChecklistItem[]>([]);
-  const [showChecklist, setShowChecklist] = useState(false);
+  const [completedCount, setCompletedCount] = useState(0);
+  const [totalTime, setTotalTime] = useState(0);
   const [selectedCategory, setSelectedCategory] = useState("all");
-  const [timeSpent, setTimeSpent] = useState(0);
 
   const categories = [
-    "all",
-    "Content Creation",
-    "Video Content",
-    "Email Marketing",
-    "Product Creation",
+    { id: "all", label: "All Templates" },
+    { id: "Content Creation", label: "Content Creation" },
+    { id: "Video Content", label: "Video Content" },
+    { id: "Business & Marketing", label: "Business & Marketing" },
   ];
 
-  const generateChecklist = () => {
-    if (!selectedProject) return;
+  const filteredTemplates = Object.entries(projectTemplates).filter(
+    ([, template]) =>
+      selectedCategory === "all" || template.category === selectedCategory
+  );
 
-    const template = projectTemplates[selectedProject];
-    if (!template) return;
-
-    const items: ChecklistItem[] = template.tasks.map((task) => ({
+  const generateChecklist = (projectId: string) => {
+    if (!projectId) {
+      setChecklist([]);
+      setCompletedCount(0);
+      setTotalTime(0);
+      return;
+    }
+    const template = projectTemplates[projectId];
+    const newChecklist = template.tasks.map((task) => ({
       ...task,
       completed: false,
     }));
-
-    setChecklist(items);
-    setShowChecklist(true);
+    setChecklist(newChecklist);
+    setCompletedCount(0);
+    const totalMinutes = newChecklist.reduce((acc, task) => {
+      const timeParts = task.timeEstimate.split(" ");
+      const timeValue = parseInt(timeParts[0], 10);
+      const timeUnit = timeParts[1];
+      if (timeUnit.startsWith("hour")) {
+        return acc + timeValue * 60;
+      }
+      return acc + timeValue;
+    }, 0);
+    setTotalTime(totalMinutes);
+    setSelectedProject(projectId);
   };
 
   const toggleTask = (id: string) => {
-    setChecklist((prev) =>
-      prev.map((item) =>
-        item.id === id ? { ...item, completed: !item.completed } : item
-      )
+    const newChecklist = checklist.map((task) =>
+      task.id === id ? { ...task, completed: !task.completed } : task
     );
+    setChecklist(newChecklist);
+    const newCompletedCount = newChecklist.filter(
+      (task) => task.completed
+    ).length;
+    setCompletedCount(newCompletedCount);
+
+    // Re-evaluate dependencies
+    const completedIds = new Set(
+      newChecklist.filter((t) => t.completed).map((t) => t.id)
+    );
+    const updatedChecklist = newChecklist.map((task) => {
+      if (task.dependencies && task.dependencies.length > 0) {
+        const allDependenciesMet = task.dependencies.every((depId) =>
+          completedIds.has(depId)
+        );
+        if (!allDependenciesMet) {
+          return { ...task, completed: false };
+        }
+      }
+      return task;
+    });
+
+    setChecklist(updatedChecklist);
   };
 
   const resetChecklist = () => {
-    setChecklist([]);
-    setShowChecklist(false);
-    setSelectedProject("");
-    setCustomProjectName("");
-    setTimeSpent(0);
+    generateChecklist(selectedProject);
   };
-
-  const completedTasks = checklist.filter((item) => item.completed).length;
-  const totalTasks = checklist.length;
-  const progress = totalTasks > 0 ? (completedTasks / totalTasks) * 100 : 0;
-
-  const filteredTemplates =
-    selectedCategory === "all"
-      ? Object.entries(projectTemplates)
-      : Object.entries(projectTemplates).filter(
-          ([_, template]) => template.category === selectedCategory
-        );
 
   const getDifficultyColor = (difficulty: string) => {
     switch (difficulty) {
       case "easy":
-        return "text-green-600 bg-green-100";
+        return "bg-green-100 text-green-800";
       case "medium":
-        return "text-yellow-600 bg-yellow-100";
+        return "bg-yellow-100 text-yellow-800";
       case "hard":
-        return "text-red-600 bg-red-100";
+        return "bg-red-100 text-red-800";
       default:
-        return "text-gray-600 bg-gray-100";
+        return "bg-gray-100 text-gray-800";
     }
   };
 
@@ -1005,12 +638,23 @@ export default function ChecklistPage() {
     return projectTemplates[selectedProject]?.roi || "";
   };
 
+  const sortedTools = (
+    tools: Array<{
+      name: string;
+      url: string;
+      description: string;
+      free: boolean;
+    }>
+  ) => {
+    return [...tools].sort((a, b) => (a.free === b.free ? 0 : a.free ? -1 : 1));
+  };
+
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Header */}
-      <div className="text-center mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Smart Project Checklist Generator
+      <div className="text-center mb-12">
+        <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl mb-4">
+          The Ultimate Creator&apos;s Checklist
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Get actionable, step-by-step guidance with tool recommendations, time
@@ -1019,386 +663,259 @@ export default function ChecklistPage() {
         </p>
       </div>
 
-      {!showChecklist ? (
-        <div className="space-y-8">
-          {/* Category Filter */}
-          <div className="flex flex-wrap gap-2 justify-center">
+      {!selectedProject ? (
+        <div className="text-center">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            Select a Project Template to Begin
+          </h2>
+          <p className="text-gray-600 mb-6">
+            Generate a step-by-step checklist for your next creative project.
+            Select a template to get started, and we&apos;ll provide a clear
+            path to success.
+          </p>
+          <div className="mt-6 flex justify-center gap-4">
             {categories.map((category) => (
               <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                  selectedCategory === category
+                key={category.id}
+                onClick={() => setSelectedCategory(category.id)}
+                className={`px-4 py-2 rounded-full font-medium transition-colors ${
+                  selectedCategory === category.id
                     ? "bg-blue-600 text-white"
-                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                    : "bg-white text-gray-700 hover:bg-gray-100"
                 }`}
               >
-                {category === "all" ? "All Projects" : category}
+                {category.label}
               </button>
             ))}
           </div>
-
-          {/* Project Selection */}
-          <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              Choose Your Project Type
-            </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-              {filteredTemplates.map(([key, template]) => (
-                <div
-                  key={key}
-                  className={`p-6 border-2 rounded-lg cursor-pointer transition-all ${
-                    selectedProject === key
-                      ? "border-blue-500 bg-blue-50 shadow-md"
-                      : "border-gray-200 hover:border-gray-300 hover:shadow-sm"
-                  }`}
-                  onClick={() => setSelectedProject(key)}
-                >
-                  <div className="flex justify-between items-start mb-3">
-                    <h3 className="font-semibold text-gray-900 text-lg">
-                      {template.name}
-                    </h3>
-                    <span
-                      className={`px-2 py-1 rounded-full text-xs font-medium ${
-                        template.difficulty === "beginner"
-                          ? "bg-green-100 text-green-800"
-                          : template.difficulty === "intermediate"
-                          ? "bg-yellow-100 text-yellow-800"
-                          : "bg-red-100 text-red-800"
-                      }`}
-                    >
-                      {template.difficulty}
-                    </span>
-                  </div>
-                  <p className="text-gray-600 mb-4">{template.description}</p>
-                  <div className="flex justify-between items-center text-sm text-gray-500">
-                    <span>📅 {template.duration}</span>
-                    <span>📈 {template.roi}</span>
-                  </div>
-                  <div className="mt-3 pt-3 border-t border-gray-200">
-                    <span className="text-xs text-gray-500">
-                      {template.tasks.length} actionable steps
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <div className="mb-6">
-              <label
-                htmlFor="custom-project"
-                className="block text-sm font-medium text-gray-700 mb-2"
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+            {filteredTemplates.map(([id, template]) => (
+              <div
+                key={id}
+                className="bg-white rounded-lg shadow-lg p-6 flex flex-col cursor-pointer transform hover:-translate-y-1 transition-transform"
+                onClick={() => generateChecklist(id)}
               >
-                Custom Project Name (Optional)
-              </label>
-              <input
-                type="text"
-                id="custom-project"
-                value={customProjectName}
-                onChange={(e) => setCustomProjectName(e.target.value)}
-                placeholder="e.g., My YouTube Channel Growth Sprint, Newsletter Launch Q1"
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
-              />
-            </div>
-
-            {selectedProject && (
-              <div className="mb-6 p-4 bg-blue-50 rounded-lg">
-                <h4 className="font-medium text-blue-900 mb-2">
-                  Project Overview:
-                </h4>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
-                  <div>
-                    <span className="text-blue-700">Duration:</span>
-                    <span className="ml-2 text-blue-900">
-                      {projectTemplates[selectedProject].duration}
-                    </span>
-                  </div>
-                  <div>
-                    <span className="text-blue-700">Difficulty:</span>
-                    <span className="ml-2 text-blue-900 capitalize">
-                      {projectTemplates[selectedProject].difficulty}
-                    </span>
-                  </div>
-                  <div>
-                    <span className="text-blue-700">Expected ROI:</span>
-                    <span className="ml-2 text-blue-900">
-                      {projectTemplates[selectedProject].roi}
-                    </span>
-                  </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">
+                  {template.name}
+                </h3>
+                <p className="text-gray-600 mb-4 flex-grow">
+                  {template.description}
+                </p>
+                <div className="flex justify-between items-center text-sm text-gray-500">
+                  <span>
+                    <strong>Duration:</strong> {template.duration}
+                  </span>
+                  <span
+                    className={`px-2 py-1 rounded-full capitalize ${getDifficultyColor(
+                      template.difficulty
+                    )}`}
+                  >
+                    {template.difficulty}
+                  </span>
+                </div>
+                <div className="mt-2 text-sm text-gray-500">
+                  <strong>ROI:</strong> {template.roi}
                 </div>
               </div>
-            )}
-
-            <button
-              onClick={generateChecklist}
-              disabled={!selectedProject}
-              className={`w-full py-3 px-6 rounded-lg font-medium text-lg transition-colors ${
-                selectedProject
-                  ? "bg-blue-600 hover:bg-blue-700 text-white"
-                  : "bg-gray-300 text-gray-500 cursor-not-allowed"
-              }`}
-            >
-              Generate Smart Checklist ✨
-            </button>
+            ))}
           </div>
         </div>
       ) : (
-        /* Generated Checklist */
         <div>
-          {/* Progress Header */}
-          <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-6">
-            <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-bold text-gray-900">
-                {customProjectName || projectTemplates[selectedProject]?.name}{" "}
-                Checklist
+          <button
+            onClick={() => setSelectedProject("")}
+            className="mb-6 inline-flex items-center text-blue-600 hover:underline"
+          >
+            <svg
+              className="w-5 h-5 mr-2"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fillRule="evenodd"
+                d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            Back to Templates
+          </button>
+
+          <div className="bg-white shadow-xl rounded-lg overflow-hidden">
+            <div className="p-6 border-b">
+              <h2 className="text-3xl font-bold text-gray-900">
+                {projectTemplates[selectedProject].name}
               </h2>
-              <button
-                onClick={resetChecklist}
-                className="px-4 py-2 text-sm bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors"
-              >
-                New Project
-              </button>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
-              <div className="text-center">
-                <div className="text-2xl font-bold text-blue-600">
-                  {completedTasks}/{totalTasks}
-                </div>
-                <div className="text-sm text-gray-600">Tasks Complete</div>
+              <p className="text-gray-600 mt-2">
+                {projectTemplates[selectedProject].description}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-4 text-sm">
+                <span className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-1.5 text-gray-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.414-1.415L11 9.586V6z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  <strong>Total Time:</strong> {Math.floor(totalTime / 60)}h{" "}
+                  {totalTime % 60}m
+                </span>
+                <span className="flex items-center">
+                  <svg
+                    className="w-5 h-5 mr-1.5 text-gray-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                    <path
+                      fillRule="evenodd"
+                      d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  <strong>Tasks:</strong> {completedCount} / {checklist.length}{" "}
+                  Completed
+                </span>
+                <span className="flex items-center">
+                  <strong>ROI:</strong> {getROIEstimate()}
+                </span>
               </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-green-600">
-                  {Math.round(progress)}%
-                </div>
-                <div className="text-sm text-gray-600">Progress</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-purple-600">
-                  {getROIEstimate()}
-                </div>
-                <div className="text-sm text-gray-600">Expected ROI</div>
-              </div>
-            </div>
-
-            <div className="mb-4">
-              <div className="w-full bg-gray-200 rounded-full h-3">
+              <div className="w-full bg-gray-200 rounded-full h-2.5 mt-4">
                 <div
-                  className="bg-blue-600 h-3 rounded-full transition-all duration-300"
-                  style={{ width: `${progress}%` }}
-                />
+                  className="bg-blue-600 h-2.5 rounded-full"
+                  style={{
+                    width: `${(completedCount / checklist.length) * 100}%`,
+                  }}
+                ></div>
               </div>
             </div>
 
-            {progress === 100 && (
-              <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-                <div className="flex items-center">
-                  <span className="text-2xl mr-3">🎉</span>
-                  <div>
-                    <h4 className="text-green-800 font-bold">
-                      Project Completed!
-                    </h4>
-                    <p className="text-green-700">
-                      Congratulations! You've successfully completed all steps.
-                      Consider sharing your results or starting your next
-                      project!
-                    </p>
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
+            <div>
+              {checklist.map((task, index) => {
+                const areDependenciesMet =
+                  !task.dependencies ||
+                  task.dependencies.every(
+                    (depId) => checklist.find((t) => t.id === depId)?.completed
+                  );
 
-          {/* Checklist Items */}
-          <div className="space-y-4">
-            {checklist.map((item, index) => (
-              <div
-                key={item.id}
-                className={`bg-white rounded-lg shadow-sm border border-gray-200 transition-all ${
-                  item.completed ? "bg-green-50 border-green-200" : ""
-                }`}
-              >
-                <div className="p-6">
-                  <div className="flex items-start">
-                    <div className="flex items-center mr-4">
-                      <span className="text-sm text-gray-500 w-8 mr-2">
-                        {index + 1}.
-                      </span>
-                      <input
-                        type="checkbox"
-                        checked={item.completed}
-                        onChange={() => toggleTask(item.id)}
-                        className="h-5 w-5 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
-                      />
-                    </div>
-                    <div className="flex-1">
-                      <div className="flex items-center justify-between mb-2">
-                        <h3
-                          className={`text-lg font-semibold ${
-                            item.completed
-                              ? "text-gray-500 line-through"
-                              : "text-gray-900"
-                          }`}
-                        >
-                          {item.text}
-                        </h3>
-                        <div className="flex items-center space-x-2">
-                          <span
-                            className={`px-2 py-1 rounded-full text-xs font-medium ${getDifficultyColor(
-                              item.difficulty
-                            )}`}
+                return (
+                  <div
+                    key={task.id}
+                    className={`border-b ${
+                      !areDependenciesMet ? "bg-gray-100 opacity-70" : ""
+                    }`}
+                  >
+                    <div className="p-6">
+                      <div className="flex items-start">
+                        <input
+                          type="checkbox"
+                          id={`task-${task.id}`}
+                          checked={task.completed}
+                          onChange={() => toggleTask(task.id)}
+                          disabled={!areDependenciesMet}
+                          className="mt-1 h-5 w-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500 disabled:opacity-50"
+                        />
+                        <div className="ml-4 flex-grow">
+                          <label
+                            htmlFor={`task-${task.id}`}
+                            className={`font-medium ${
+                              task.completed
+                                ? "line-through text-gray-500"
+                                : "text-gray-900"
+                            } ${
+                              !areDependenciesMet ? "cursor-not-allowed" : ""
+                            }`}
                           >
-                            {item.difficulty}
-                          </span>
-                          <span className="text-sm text-gray-500">
-                            ⏱️ {item.timeEstimate}
-                          </span>
-                          {item.completed && (
-                            <span className="text-green-500 text-xl">✅</span>
-                          )}
-                        </div>
-                      </div>
-
-                      <p className="text-gray-600 mb-4">{item.description}</p>
-
-                      {/* Tools Section */}
-                      {item.tools.length > 0 && (
-                        <div className="mb-4">
-                          <h4 className="font-medium text-gray-900 mb-2">
-                            🛠️ Recommended Tools:
-                          </h4>
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                            {item.tools.map((tool, toolIndex) => (
-                              <a
-                                key={toolIndex}
-                                href={tool.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
-                              >
-                                <div>
-                                  <div className="flex items-center">
-                                    <span className="font-medium text-gray-900">
-                                      {tool.name}
-                                    </span>
-                                    {tool.free && (
-                                      <span className="ml-2 px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full">
-                                        Free
-                                      </span>
-                                    )}
-                                  </div>
-                                  <p className="text-sm text-gray-600">
-                                    {tool.description}
-                                  </p>
-                                </div>
-                                <span className="text-blue-600">→</span>
-                              </a>
-                            ))}
+                            {index + 1}. {task.text}
+                          </label>
+                          <p
+                            className={`text-sm text-gray-600 mt-1 ${
+                              !areDependenciesMet ? "italic" : ""
+                            }`}
+                          >
+                            {!areDependenciesMet
+                              ? "Complete previous tasks to unlock"
+                              : task.description}
+                          </p>
+                          <div className="mt-3 flex items-center gap-4 text-sm text-gray-500">
+                            <span
+                              className={`px-2 py-0.5 rounded-full text-xs font-semibold ${getDifficultyColor(
+                                task.difficulty
+                              )}`}
+                            >
+                              {task.difficulty}
+                            </span>
+                            <span>{task.timeEstimate}</span>
                           </div>
-                        </div>
-                      )}
 
-                      {/* Resources Section */}
-                      {item.resources.length > 0 && (
-                        <div className="mb-4">
-                          <h4 className="font-medium text-gray-900 mb-2">
-                            📚 Helpful Resources:
-                          </h4>
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                            {item.resources.map((resource, resourceIndex) => (
-                              <a
-                                key={resourceIndex}
-                                href={resource.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="flex items-center justify-between p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors"
-                              >
-                                <div>
-                                  <div className="flex items-center">
-                                    <span className="font-medium text-blue-900">
-                                      {resource.title}
+                          <div className="mt-4">
+                            <h4 className="font-semibold text-sm text-gray-700 mb-2">
+                              Recommended Tools
+                            </h4>
+                            <div className="flex flex-wrap gap-2">
+                              {sortedTools(task.tools).map((tool) => (
+                                <Link
+                                  key={tool.name}
+                                  href={tool.url}
+                                  target="_blank"
+                                  className="group"
+                                >
+                                  <span
+                                    className={`px-3 py-1 text-sm rounded-full transition-colors ${
+                                      tool.free
+                                        ? "bg-green-100 text-green-800 hover:bg-green-200"
+                                        : "bg-orange-100 text-orange-800 hover:bg-orange-200"
+                                    }`}
+                                  >
+                                    {tool.name}
+                                    <span className="ml-1.5 text-xs">
+                                      {tool.free ? "Free" : "Paid"}
                                     </span>
-                                    <span className="ml-2 px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">
+                                  </span>
+                                </Link>
+                              ))}
+                            </div>
+                          </div>
+
+                          <div className="mt-4">
+                            <h4 className="font-semibold text-sm text-gray-700 mb-2">
+                              Helpful Resources
+                            </h4>
+                            <div className="flex flex-wrap gap-2">
+                              {task.resources.map((resource) => (
+                                <Link
+                                  key={resource.title}
+                                  href={resource.url}
+                                  target="_blank"
+                                >
+                                  <span className="px-3 py-1 text-sm rounded-full bg-blue-100 text-blue-800 hover:bg-blue-200 transition-colors">
+                                    {resource.title}
+                                    <span className="ml-1.5 text-xs capitalize">
                                       {resource.type}
                                     </span>
-                                  </div>
-                                </div>
-                                <span className="text-blue-600">→</span>
-                              </a>
-                            ))}
+                                  </span>
+                                </Link>
+                              ))}
+                            </div>
                           </div>
                         </div>
-                      )}
-
-                      {/* Dependencies */}
-                      {item.dependencies && item.dependencies.length > 0 && (
-                        <div className="text-sm text-amber-700 bg-amber-50 p-2 rounded-lg">
-                          ⚠️ Complete these tasks first:{" "}
-                          {item.dependencies.join(", ")}
-                        </div>
-                      )}
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* Additional Resources */}
-          <div className="mt-12 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              🚀 Take Your Project Further
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                  Need More Help?
-                </h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• Join creator communities for feedback and support</li>
-                  <li>• Consider hiring specialists for complex tasks</li>
-                  <li>• Document your process for future projects</li>
-                  <li>• Track your results and optimize for next time</li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                  Level Up Your Skills:
-                </h3>
-                <div className="space-y-2">
-                  <Link
-                    href="/tools"
-                    className="block text-blue-600 hover:text-blue-700"
-                  >
-                    → Explore more creator tools
-                  </Link>
-                  <a
-                    href="https://skillshare.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block text-blue-600 hover:text-blue-700"
-                  >
-                    → Take online courses (Skillshare)
-                  </a>
-                  <a
-                    href="https://youtube.com/creators"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block text-blue-600 hover:text-blue-700"
-                  >
-                    → YouTube Creator Academy
-                  </a>
-                  <a
-                    href="https://creatoreconomy.so"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block text-blue-600 hover:text-blue-700"
-                  >
-                    → Creator Economy Report
-                  </a>
-                </div>
-              </div>
+                );
+              })}
+            </div>
+            <div className="p-6 bg-gray-50 text-right">
+              <button
+                onClick={resetChecklist}
+                className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50"
+              >
+                Reset Checklist
+              </button>
             </div>
           </div>
         </div>

@@ -93,7 +93,6 @@ export default function ImageEditorPage() {
   const [activeTab, setActiveTab] = useState<
     "filters" | "crop" | "resize" | "text" | "effects"
   >("filters");
-  const [showPreview, setShowPreview] = useState(false);
 
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -324,37 +323,18 @@ export default function ImageEditorPage() {
 
   // Sync preview canvas with main canvas
   const updatePreviewCanvas = useCallback(() => {
-    const canvas = canvasRef.current;
+    if (!imageState.originalImage || !previewCanvasRef.current) return;
+
     const previewCanvas = previewCanvasRef.current;
+    const ctx = previewCanvas.getContext("2d");
+    if (!ctx) return;
 
-    if (!canvas || !previewCanvas) return;
+    previewCanvas.width = imageState.originalImage.width;
+    previewCanvas.height = imageState.originalImage.height;
 
-    // Set preview canvas dimensions to match working canvas
-    previewCanvas.width = canvas.width;
-    previewCanvas.height = canvas.height;
-
-    const ctx = canvas.getContext("2d");
-    const previewCtx = previewCanvas.getContext("2d");
-
-    if (ctx && previewCtx) {
-      // Clear preview canvas
-      previewCtx.clearRect(0, 0, previewCanvas.width, previewCanvas.height);
-
-      // Apply current filters to preview
-      const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-      previewCtx.putImageData(imageData, 0, 0);
-
-      // Apply text overlays to preview
-      textOverlays.forEach((overlay) => {
-        previewCtx.font = `${overlay.bold ? "bold " : ""}${
-          overlay.italic ? "italic " : ""
-        }${overlay.fontSize}px ${overlay.fontFamily}`;
-        previewCtx.fillStyle = overlay.color;
-        previewCtx.textBaseline = "top";
-        previewCtx.fillText(overlay.text, overlay.x, overlay.y);
-      });
-    }
-  }, [textOverlays]);
+    ctx.filter = `brightness(${filters.brightness}%) contrast(${filters.contrast}%) saturate(${filters.saturation}%) hue-rotate(${filters.hue}deg) blur(${filters.blur}px) sepia(${filters.sepia}%) grayscale(${filters.grayscale}%) invert(${filters.invert}%) opacity(${filters.opacity}%)`;
+    ctx.drawImage(imageState.originalImage, 0, 0);
+  }, [imageState.originalImage, filters]);
 
   // Apply filters to canvas
   const applyFilters = useCallback(() => {

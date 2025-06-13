@@ -110,8 +110,7 @@ export default function VideoConverterPage() {
       const outputFormat = supportedFormats.find(
         (f) => f.value === targetFormat
       );
-      const fileName =
-        selectedFile.name.replace(/\.[^/.]+$/, "") +
+      selectedFile.name.replace(/\.[^/.]+$/, "") +
         "." +
         (outputFormat?.ext || targetFormat);
 
