@@ -18,7 +18,7 @@ interface Tool {
 }
 
 interface Props {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
 // Generate static paths for all tools
@@ -30,7 +30,7 @@ export async function generateStaticParams() {
 
 // Generate metadata for each tool page
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { id } = params;
+  const { id } = await params;
   const tool = (tools as Tool[]).find((t) => t.id === id);
 
   if (!tool) {
@@ -70,8 +70,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function ToolPage({ params }: { params: { id: string } }) {
-  const { id } = params;
+export default async function ToolPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
   const tool: Tool | undefined = (tools as Tool[]).find((t) => t.id === id);
 
   if (!tool) {

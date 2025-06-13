@@ -282,9 +282,6 @@ export default function ImageEditorPage() {
             setTextOverlays([]);
             setActiveTextOverlay(null);
 
-            // Update preview canvas with initial image
-            setTimeout(() => updatePreviewCanvas(), 0);
-
             console.log("Image processing completed");
           } else {
             console.error("Failed to get canvas context");
@@ -375,10 +372,7 @@ export default function ImageEditorPage() {
       ctx.fillText(overlay.text, overlay.x, overlay.y);
       ctx.restore();
     });
-
-    // Update preview canvas
-    updatePreviewCanvas();
-  }, [filters, imageState.originalImage, textOverlays, updatePreviewCanvas]);
+  }, [filters, imageState.originalImage, textOverlays]);
 
   // Save current state to history
   const saveToHistory = useCallback(() => {

@@ -127,12 +127,6 @@ export default function AudioConverterPage() {
 
       // Create a simulated converted file
       // In a real implementation, this would be the actual converted audio
-      const outputFormat = supportedFormats.find(
-        (f) => f.value === targetFormat
-      );
-      selectedFile.name.replace(/\.[^/.]+$/, "") +
-        "." +
-        (outputFormat?.ext || targetFormat);
 
       // For demonstration, we'll create a blob with the same content but different name
       // In production, this would be the actual converted audio data
